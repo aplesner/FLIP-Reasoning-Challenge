@@ -79,7 +79,7 @@ output_file_name="${flip_split}_${reasoning_models}__${caption_models}.json"
 output_file_path="${EXPERIMENT_OUT}/${output_file_name}"
 touch $output_file_path
 
-HUGGING_FACE_TOKEN="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"
+HUGGING_FACE_TOKEN=""
 GOOGLE_API_KEY=""
 OPENAI_API_KEY=""
 TEST_MODE="0"
