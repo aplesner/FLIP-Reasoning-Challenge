@@ -1,0 +1,191 @@
+{
+    "ViPLlava_7B":{
+        "model_id":"llava-hf/vip-llava-7b-hf",
+
+        "prompt" : "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.###Human: <image>\n{}###Assistant:",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+
+    "ViPLlava_13B":{
+        "model_id":"llava-hf/vip-llava-13b-hf",
+
+        "prompt" : "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.###Human: <image>\n{}###Assistant:",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+
+    "ViPLlava_7B_brief":{
+        "model_id":"llava-hf/vip-llava-7b-hf",
+
+        "prompt" : "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, short, and polite answers to the human's questions.###Human: <image>\n{}###Assistant:",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+
+    "ViPLlava_13B_brief":{
+        "model_id":"llava-hf/vip-llava-13b-hf",
+
+        "prompt" : "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, short, and polite answers to the human's questions.###Human: <image>\n{}###Assistant:",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":20
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+    
+    "LlavaNeXT_mistral_7B":{
+        "model_id":"llava-hf/llava-v1.6-mistral-7b-hf",
+        "prompt" : "{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+
+    "LlavaNeXT_vicuna_7B":{
+        "model_id":"llava-hf/llava-v1.6-vicuna-7b-hf",
+        "prompt" : "{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+
+    "LlavaNeXT_vicuna_13B":{
+        "model_id":"llava-hf/llava-v1.6-vicuna-13b-hf",
+        "prompt" : "{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : "Can you please describe this image?"
+    },
+
+    "BLIP2_flan_t5_xxl":{
+        "model_id":
+        "Salesforce/blip2-flan-t5-xxl",
+        "prompt":"Question: {} Answer:",
+        "gen_kw":{
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "load_in_8bit":true
+        },
+        "question":"What do you see in this image? Please describe it"
+    },
+
+    "BLIP2_6_7B_COCO":{
+        "model_id":
+        "Salesforce/blip2-opt-6.7b-coco",
+        "prompt":"Question: {} Answer:",
+        "gen_kw":{
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "load_in_8bit":true
+        },
+        "question":"What do you see in this image? Please describe it"
+    },
+
+    "BLIP2_2_7B":{
+        "model_id":
+        "Salesforce/blip2-opt-2.7b",
+        "prompt":"Question: {} Answer:",
+        "gen_kw":{
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question":"What do you see in this image? Please describe it"
+    },
+    
+    "Llama_3_2_11B":{
+        "model_id":"meta-llama/Llama-3.2-11B-Vision-Instruct",
+        "prompt":"{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question":"Can you please describe this image?"
+    },
+
+    "Llama_3_2_90B_8bit":{
+        "model_id":"meta-llama/Llama-3.2-90B-Vision-Instruct",
+        "prompt":"{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "BitsAndBytesConfig":{
+                "load_in_8bit":true
+            }
+        },
+        "question":"Can you please describe this image?"
+    },
+
+    "Phi_3_5":{
+        "model_id":"microsoft/Phi-3.5-vision-instruct" ,
+        "prompt":"{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "_attn_implementation":"eager",
+            "trust_remote_code":true, 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question":"Can you please describe this image?"
+    }
+}

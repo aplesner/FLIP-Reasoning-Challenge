@@ -1,0 +1,1116 @@
+{
+    "Qwen_2_5_8bit":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories comprised of 4 images each",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":0
+    },
+    
+    "Qwen_2_5_8bit_context_2":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":1,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_Gemini_pro_context_2":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":1,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_4":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":2,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_8":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":4,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_10":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":5,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_Gemini_pro_context_10":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":5,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_16":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":8,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_40":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":20,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_Gemini_pro_context_40":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":20,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_100":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":50,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_Gemini_pro_context_100":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":50,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_context_200":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":100,
+            "strategy":"balanced"
+        }
+    },
+
+    "Qwen_2_5_8bit_Gemini_pro_context_200":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":100,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_flash_002":{
+        "model_id":"gemini-1.5-flash-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":0
+    },
+
+    "Gemini_1_5_flash_001":{
+        "model_id":"gemini-1.5-flash-001",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":0
+    },
+
+    "Gemini_1_5_pro_002":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":0
+    },
+
+    "Gemini_1_5_pro_002_context_2":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":1,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_4":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":2,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_8":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":4,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_16":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":8,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_10":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":5,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_40":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":20,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_100":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":50,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_context_200":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Gemini_1_5_pro_002",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":100,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_Qwen_context_2":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":1,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_Qwen_context_10":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":5,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_Qwen_context_40":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":20,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_Qwen_context_100":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":50,
+            "strategy":"balanced"
+        }
+    },
+
+    "Gemini_1_5_pro_002_Qwen_context_200":{
+        "model_id":"gemini-1.5-pro-002",
+        "prompt":"",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "safety_settings":[
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"Qwen_2_5_8bit",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":100,
+            "strategy":"balanced"
+        }
+    },
+
+    "ChatGPT_4_turbo":{
+        "model_id":"gpt-4-turbo-2024-04-09",
+        "prompt":"You are a helpful chatbot that provides short, accurate answers",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.0
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":0
+    },
+
+    "ChatGPT_4_turbo_context_2":{
+        "model_id":"gpt-4-turbo-2024-04-09",
+        "prompt":"You are a helpful chatbot that provides short, accurate answers",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.0
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"ChatGPT_4_turbo",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":1,
+            "strategy":"balanced"
+        }
+    },
+
+    "ChatGPT_4_turbo_context_10":{
+        "model_id":"gpt-4-turbo-2024-04-09",
+        "prompt":"You are a helpful chatbot that provides short, accurate answers",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.0
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"ChatGPT_4_turbo",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":5,
+            "strategy":"balanced"
+        }
+    },
+
+    "ChatGPT_4_turbo_context_40":{
+        "model_id":"gpt-4-turbo-2024-04-09",
+        "prompt":"You are a helpful chatbot that provides short, accurate answers",
+        "question":[
+            " You are given 2 Stories, each is described by 4 images.",
+            " The proposed temporal order of stories is defined from top (first) to bottom (last). ",
+            " One of the Stories is logicallly ordered and capable of conveing a simple story, whereas the other is not.",
+            " Please determine which story (1 or 2) is more logically ordered and provide the result as either '1' or '2' after 'Solution:' "
+        ],
+        "gen_kw":{
+            "temperature":0.0
+        },
+        "model_load_params":{},
+        "prompt_instructions":"Do not provide any other details, words or explanation other than 1 or 2, mark your answer after 'Solution: '",
+        "context_n":{
+            "context_reasoning_model":"ChatGPT_4_turbo",
+            "context_captioning_model":"BLIP2_flan_t5_xxl",
+            "size":20,
+            "strategy":"balanced"
+        }
+    }
+}

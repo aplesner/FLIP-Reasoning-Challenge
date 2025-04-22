@@ -1,0 +1,185 @@
+{
+    "param_file": "params_reason_3.json",
+    "meta_Llama_3_1_70B": {
+        "ViPLlava_7B": {
+            "total_acc": 0,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": false,
+                    "guess": "Right"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": false,
+                    "guess": "Right"
+                }
+            }
+        },
+        "ViPLlava_13B": {
+            "total_acc": 1,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": false,
+                    "guess": "Right"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": false,
+                    "guess": "Right"
+                }
+            }
+        },
+        "LlavaNeXT_mistral_7B": {
+            "total_acc": 2,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        },
+        "LlavaNeXT_vicuna_7B": {
+            "total_acc": 2,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        },
+        "LlavaNeXT_vicuna_13B": {
+            "total_acc": 0,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": false,
+                    "guess": "Right"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": false,
+                    "guess": "Right"
+                }
+            }
+        },
+        "BLIP2_2_7B": {
+            "total_acc": 3,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        },
+        "BLIP2_6_7B_COCO": {
+            "total_acc": 3,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        },
+        "BLIP2_flan_t5_xxl": {
+            "total_acc": 2,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": false,
+                    "guess": "Right"
+                }
+            }
+        },
+        "Llama_3_2_11B": {
+            "total_acc": 2,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        },
+        "Phi_3_5": {
+            "total_acc": 3,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreie2bgkthnxeai27g2vwgyodurzrmrtm54nyukfohi63fnt2d674cm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreifrtg6ogxrtwirponjxcnzkc54kvcqp5hlahvidwjfo6hdatgy4yi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreigr3u6xcgsg6irp47kbnvxi5rfsmupbjzcrfh466clmxzfv5q5w7u": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        }
+    }
+}

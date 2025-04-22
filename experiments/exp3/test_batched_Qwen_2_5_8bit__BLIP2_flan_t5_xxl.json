@@ -1,0 +1,23 @@
+{
+    "param_file": "params_reason_3.json",
+    "Qwen_2_5_8bit": {
+        "BLIP2_flan_t5_xxl": {
+            "total_acc": 2,
+            "flips_cnt": 3,
+            "flips_res": {
+                "/flip/bafkreihid6qi6pjuhfvhd5nvcaqasmtlzfp4nd3poseto2betrzgay6u4u": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreie6tswqkmc2ipe5hop7oyd4w2hopnmjlkl6roylgklnobzj5qn23e": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafybeiad7esfenf7lyb6syksuynl7xoycgcsmwccd7xdv3ghuzbylz2mfi": {
+                    "acc": false,
+                    "guess": "Left"
+                }
+            }
+        }
+    }
+}

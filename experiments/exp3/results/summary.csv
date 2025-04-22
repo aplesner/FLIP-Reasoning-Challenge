@@ -1,0 +1,5 @@
+Models;BLIP2_2_7B;BLIP2_6_7B_COCO;BLIP2_flan_t5_xxl;Llama_3_2_11B;LlavaNeXT_mistral_7B;LlavaNeXT_vicuna_13B;LlavaNeXT_vicuna_7B;Phi_3_5;ViPLlava_13B;ViPLlava_7B
+param_file;;;;;;;;;;
+nvm_Llama3_51B;;;77.67;;;;;;67.047;65.848
+nvm_Llama3_70B;;;72.244;;;;;;70.017;68.247
+Qwen_2_5_8bit;72.587;71.331;75.557;68.075;64.82;62.536;63.849;66.933;68.418;67.047

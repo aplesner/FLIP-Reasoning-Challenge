@@ -1,0 +1,38 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.4.1-cuda12.1-cudnn9-devel
+
+%post
+    apt-get update
+    apt-get install git -y
+
+    # Additional setup if needed
+    pip3 install --no-cache-dir --upgrade pip
+    pip3 install --no-cache-dir --upgrade \
+        scipy \
+        torch \
+        accelerate \
+        bitsandbytes \
+        transformers \
+        accelerate \
+        deepspeed \
+        torchvision \
+        torchaudio
+
+
+%environment
+    export LC_ALL=C
+    export USER=kturlan
+    export TMPDIR=/scratch/$USER/apptainer_env/venv/.local
+    export PYTHONUSERBASE=/scratch/$USER/apptainer_env/.local
+    export PYTHONNOUSERSITE=1
+    export PIP_CACHE_DIR=/scratch/$USER/apptainer_env/pip_cache
+    export PYTHONPATH=$PYTHONPATH:/scratch/$USER/apptainer_env/site_packages
+    export JUPYTER_DATA_DIR=/scratch/$USER/apptainer_env/jupyter_data
+    export HF_HOME=/scratch/$USER/apptainer_env/hf_cache
+    export TRANSFORMERS_CACHE=/scratch/$USER/apptainer_env/hf_cache
+    export HUGGINGFACE_HUB_CACHE=/scratch/$USER/apptainer_env/hf_cache
+    export TORCH_HOME=/scratch/$USER/apptainer_env/torch_cache
+
+%runscript
+    python --version
+    echo "To run your script, use: apptainer exec pytorch_cuda.sif python /path/to/your/script.py"

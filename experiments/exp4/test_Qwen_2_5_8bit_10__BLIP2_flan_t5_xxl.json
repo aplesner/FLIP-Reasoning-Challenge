@@ -1,0 +1,137 @@
+{
+    "param_file": "params_reason_4.json",
+    "Qwen_2_5_8bit_10": {
+        "BLIP2_flan_t5_xxl": {
+            "total_acc": 10,
+            "flips_cnt": 10,
+            "flips_res": {
+                "/flip/bafkreiahc2sioyifriaxpkiazz3zemri2qfpvbemsv37qgzalwwwq6o4jy": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiahnmdezpugzceecq6mribhwakwqhxrneg6ysa3etqfs4cabnzome": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia7vrcwj2fwxvdfr62hbq6dnflyb7p42wduxmduxczd3afw3t2eyy": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiagtabvhjgkm5rf5wanufuskvisqkqywjsn3xee6k43774srnugom": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiaqmabyrgyl5irb2tuqaxxm3rixbhquqkd6ajiyrhlobh2biyylly": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiabxmmzepq25hczszvjwvmgeenyhwrceoujewxp6a2kmhsls3pvki": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiachvzqf3m4ytqi3g2hi3h5t7emqbofcltgw7n35ucp3yimj5rp2q": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiayjdyvaf6ulfrynxoedc53fsntvym2z2dlthj2rxzheyrfqygqai": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiav3f57msvtu2qzsieruyxcg76u6n75cwcivpc34ezj2vmdiaiiqm": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreib3i4p4shiiapxc6mvmvul5tvm633gok6o5uozpoienz7gb3prioy": {
+                    "acc": true,
+                    "guess": "Left"
+                }
+            }
+        }
+    },
+    "stable_context": {
+        "positive_context": [
+            {
+                "name": "/flip/bafkreiaxvpih5nczk7zxsvuwz6lp3q2ta4q4cqaoewr2dbtjfnsniadapm",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a car driving down a road\" \nimage 2: \"a car is drifting on a track\" \nimage 3: \"A black car is in the middle of a road\" \nimage 4: \"a crane lifting a car into a pile of scrap metal\" \n\nStory 2: \n\nimage 1: \"A black car is in the middle of a road\" \nimage 2: \"a car driving down a road\" \nimage 3: \"a car is drifting on a track\" \nimage 4: \"a crane lifting a car into a pile of scrap metal\""
+            },
+            {
+                "name": "/flip/bafkreiai5cqvayogostl6qvtgrtilsqoqmauzd4mmqqr66wyu6xrfcrrwy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two men in suits talking to each other\" \nimage 2: \"people voting at a polling station\" \nimage 3: \"obama waves to the crowd\" \nimage 4: \"a boy in a classroom with a tablet\" \n\nStory 2: \n\nimage 1: \"a boy in a classroom with a tablet\" \nimage 2: \"two men in suits talking to each other\" \nimage 3: \"people voting at a polling station\" \nimage 4: \"obama waves to the crowd\""
+            },
+            {
+                "name": "/flip/bafkreia6p53xvcgqmfafjyo5uyol54jmbief62exqinyeebhwcbv6l7cee",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a salt shaker on a white background\" \nimage 2: \"a glass of red wine on the floor\" \nimage 3: \"a woman putting salt on a wine glass\" \nimage 4: \"a salt shaker on a white background\" \n\nStory 2: \n\nimage 1: \"a woman putting salt on a wine glass\" \nimage 2: \"a salt shaker on a white background\" \nimage 3: \"a salt shaker on a white background\" \nimage 4: \"a glass of red wine on the floor\""
+            },
+            {
+                "name": "/flip/bafkreiasc2bxjaaozsxl7qfc4dals3skjbfx43et7lwhim62vry3je6434",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"the military commander person in uniform saluting from the balcony of the russian presidential palace\" \nimage 2: \"a parade of military personnel\" \nimage 3: \"two tanks on a street\" \nimage 4: \"fireworks in the sky\" \n\nStory 2: \n\nimage 1: \"fireworks in the sky\" \nimage 2: \"the military commander person in uniform saluting from the balcony of the russian presidential palace\" \nimage 3: \"a parade of military personnel\" \nimage 4: \"two tanks on a street\""
+            },
+            {
+                "name": "/flip/bafkreiafnmq3m6chab4mt5laa2t4ebi7urdxfuvj24unhfog35wms6cx2a",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man and woman pushing each other\" \nimage 2: \"a man with a beard\" \nimage 3: \"A man playing video games on his computer\" \nimage 4: \"a business woman giving thumbs up\" \n\nStory 2: \n\nimage 1: \"a business woman giving thumbs up\" \nimage 2: \"a man and woman pushing each other\" \nimage 3: \"A man playing video games on his computer\" \nimage 4: \"a man with a beard\""
+            }
+        ],
+        "negative_context": [
+            {
+                "name": "/flip/bafkreiai6i2wxjvlfz2w4zcuxlrizzpo5hvwutwnnrgm4mqwtiqau6qgdm",
+                "agreed_answer": [
+                    "Right",
+                    "Weak"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"group of students in a classroom\" \nimage 2: \"a map of the world\" \nimage 3: \"a map of the island\" \nimage 4: \"students in a classroom\" \n\nStory 2: \n\nimage 1: \"a map of the world\" \nimage 2: \"students in a classroom\" \nimage 3: \"group of students in a classroom\" \nimage 4: \"a map of the island\""
+            },
+            {
+                "name": "/flip/bafkreia47kcftqkgtz6occ3lakgvn7n5cszrvskb5rzxvfn27cai5d7y7e",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a large hall with many people\" \nimage 2: \"a glass cup on a blue background\" \nimage 3: \"a heart made of broken glass\" \nimage 4: \"a group of white cups and cups\" \n\nStory 2: \n\nimage 1: \"a large hall with many people\" \nimage 2: \"a heart made of broken glass\" \nimage 3: \"a glass cup on a blue background\" \nimage 4: \"a group of white cups and cups\""
+            },
+            {
+                "name": "/flip/bafkreia4kb6mmf6h6muomhmmtnvtjohshephc3laadkrwoihb4ohew5w2u",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two white dice on a black background\" \nimage 2: \"a square with numbers in it\" \nimage 3: \"A man and woman playing roulee in a casino\" \nimage 4: \"a hand throwing dice\" \n\nStory 2: \n\nimage 1: \"a square with numbers in it\" \nimage 2: \"a hand throwing dice\" \nimage 3: \"two white dice on a black background\" \nimage 4: \"A man and woman playing roulee in a casino\""
+            },
+            {
+                "name": "/flip/bafkreiaquwstvhx2km5h5f2pajbl4jrxdel4vd3t6uy454lzgo4kfpf5e4",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"bubbles in the sky\" \nimage 2: \"a bee on a yellow flower\" \nimage 3: \"bubbles in the air\" \nimage 4: \"a soap bubble\" \n\nStory 2: \n\nimage 1: \"a soap bubble\" \nimage 2: \"bubbles in the air\" \nimage 3: \"bubbles in the sky\" \nimage 4: \"bubbles in the air\""
+            },
+            {
+                "name": "/flip/bafkreib5pckpayjxeaszuzuw5oymc4i7s7yvhcqbyjyqu5ra67yhsrh2ca",
+                "agreed_answer": [
+                    "Left",
+                    "Weak"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a green field with blue sky and clouds\" \nimage 2: \"army uniforms\" \nimage 3: \"soldiers walking down a hallway\" \nimage 4: \"soldiers walking in a field\" \n\nStory 2: \n\nimage 1: \"army uniforms\" \nimage 2: \"a field of green grass with a blue sky and clouds\" \nimage 3: \"soldiers walking down a hallway\" \nimage 4: \"soldiers walking in a field\""
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.4.0-cuda12.1-cudnn9-runtime
+
+%post
+    apt-get update
+
+    export PIP_NO_CACHE_DIR=false
+
+    mkdir -p /scratch/$USER/apptainer_env/venv/.local
+    export TMPDIR=/scratch/$USER/apptainer_env/venv/.local
+    mkdir -p /scratch/$USER/apptainer_env/.local
+    export PYTHONUSERBASE=/scratch/$USER/apptainer_env/.local
+    export PYTHONNOUSERSITE=1
+    mkdir -p /scratch/$USER/apptainer_env/pip_cache
+    export PIP_CACHE_DIR=/scratch/$USER/apptainer_env/pip_cache
+    mkdir -p /scratch/$USER/apptainer_env/site_packages
+    export PYTHONPATH=$PYTHONPATH:/scratch/$USER/apptainer_env/site_packages
+    mkdir -p /scratch/$USER/apptainer_env/jupyter_data
+    export JUPYTER_DATA_DIR=/scratch/$USER/apptainer_env/jupyter_data
+    mkdir -p /scratch/$USER/apptainer_env/hf_cache
+    export HF_HOME=/scratch/$USER/apptainer_env/hf_cache
+    mkdir -p /scratch/$USER/apptainer_env/hf_cache
+    export TRANSFORMERS_CACHE=/scratch/$USER/apptainer_env/hf_cache
+    mkdir -p /scratch/$USER/apptainer_env/hf_cache
+    export HUGGINGFACE_HUB_CACHE=/scratch/$USER/apptainer_env/hf_cache
+    mkdir -p /scratch/$USER/apptainer_env/torch_cache
+    export TORCH_HOME=/scratch/$USER/apptainer_env/torch_cache
+
+    # Additional setup if needed
+    pip3 install --no-cache-dir --upgrade pip
+    pip3 install --no-cache-dir --upgrade scipy webdataset torch torchvision transformers datasets accelerate deepspeed
+    pip3 install --no-cache-dir --upgrade einops flash_attn
+
+%environment
+    export LC_ALL=C
+
+%runscript
+    python --version
+    echo "To run your script, use: apptainer exec pytorch_cuda.sif python /path/to/your/script.py"

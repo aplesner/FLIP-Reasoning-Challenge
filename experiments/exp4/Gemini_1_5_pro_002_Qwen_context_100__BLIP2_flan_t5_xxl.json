@@ -1,0 +1,1337 @@
+{
+    "param_file": "params_reason_4.json",
+    "Gemini_1_5_pro_002_Qwen_context_100": {
+        "BLIP2_flan_t5_xxl": {
+            "total_acc": 96,
+            "flips_cnt": 130,
+            "flips_res": {
+                "/flip/bafkreia2avxdpte3gqjgrs5qzlvfupiel5dvayfpae6bbetypgzx2tcpdm": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia2emdqs45s5rfatdyc57akmfhhl2b5wb53fq6vq4fkurwehkihsq": {
+                    "acc": false,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia2rc3hapxstsryr5evmjqfk7trbxnqk4zp3alphtfzj6uwk47ob4": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia2rsxumn7tskmf45mrhkgfuusgzvytrw2oo2a36ft2scwzexzjei": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia2v23cs6gkkifim7jgrdebhgm4yotn6tqyg2hc3g24zeav3vcdyu": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia34fllhxzbryebd3cxu7iqepzcoz5osmlm725spnwk37vosuymwq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia3hscn6lexgm3yk7xnqvq4burxx4vgdepgta5arexohkf6fgksga": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia3hu2xfjsfqr6pksk32mk5wgm4gsiyd27oqu45s3ibocsggy7v6i": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia3i4k3hgoyzo2zax6p2ley7wazwfbi2fyah54o7dr3q3ouxujhq4": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia3yw45nzgdwv6yts3enryxrdwebl7cxmynwwf7ikgz7vj33temrm": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia42gcsxn6siwto6fust7m5mlefruvestcomhw3d57h6rgdcym26y": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia4jugx5toxncozyzw2seqmwy2lcnjjbviczg3i6cgvpq2h7d7ut4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia4mcjadazkpghr72wuljb3h5o2ezhzlktonnlymemixf6jmvwvga": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia4mqmn6ude52trilscdfddffntd5gbszd32p6xugcv7z37ely4ji": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia4vgvhgpd7mouizkjynlw5oxaixgy5fr3pzwc7telwy3jqjqukoa": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia52yjj7bhuj4ovr4nkliiveqhxqaierawekac3rc5e2pumwrex7m": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia5gw4pnnlo2evma4lybyqnwb4syqh4xggykzhnrhucu4zlsm2lzq": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia5hxvdrcfokgzrjtvx3qnzinbxa2vnzhsqqeiwwbvqqpl7kcilbm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia5kbs3fessjsgkxd4vzknbtkml5l3p6e5iuq7i6f5zfasbdtsdmq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia5l27qpdybtvng62fih7bikggyvzvkwyf3lzvhc4z7vmqnyi3lki": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia5ofqnpqn7hzqw3vgaetwsl2m4fg2ph6j37qhlagkbmnbpqrqjra": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia5trcwglyj2cscmjkkkgly2hrgysczq6z2n562syfw4mzpztia4u": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia5ux26bsmf7mfg4e4q4sd3pq3bzsqf3str3miihkhuf6bmer7tky": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia5yh3tmzzdxigbtnocbllmh7upevpa5lt2e73rzdkt7awmqsqo4a": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia655v2eepa6bej2xcm55v3op4h4ekpk6wrzmzcf7vxgoof3zfshm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia66gglp543eszs6brprv347y5ptlwd6ysu5u5ybp67ftpy3ovqqu": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia6bbyspwwtutf4qiijv6sk4itrptoetl6gleesdppj5exuo524pe": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia6bia3hzrumlj7ehtt5d4btqn7vlelwwjcbscm3jkxckpvw2czo4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia6ctiv2ajhrfshpoa6smwaj5moidneke7wpqeqfbg2y2ngoaygxy": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia6jdb5gwf3c3twv6zu7e2c4sxr5vhkndr7ssidklfkc2zt53xese": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia6osapzsi6tyjqtnmyqub2w626togmm72ueymdvethis3a3wx5wu": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia6p6wuwfka3ec4gejdxvaov3jq2l4cnxlcdh5xsfeexbq3knxena": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia6rugjixvhb5nxb76ddbgtnz2sf7xutph7z5uuuw3sdet6wys27e": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia6wrvaskdnik4ckyfujarffz7ycjnwgi6o5xtsme4rmcokk3r62y": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia7ffpow6qo4hkw3pa53o2jpm3tfjaou6tyc4bxpjjl246sfqonou": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia7hr7zebj5c3q53uq3h5irf7cgfzxb6e2tfsc2i6xoptx342q67u": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia7poff236o7wjjzz4jkmzutxbcgqzmlpcetietb5svnaoh2nwoni": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia7rg6acusguphuu4qki2lqvjqbbukn6jhbd5gggeknrmxym3fd7y": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia7rqgv7yw4fax5syy6yf2ukff2nw4jnat23yimulain6dadvynsq": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreia7vwvrqnseh23l63qc7j5f5ggrymfqrzfcyeegonvlcgkc7bi2qy": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreia7ytkhdnbccmqfsxwbnxpgteiug2xfd2wgx472fnka5ro6iqbv7e": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaa4ky6m2tdngtts7qekkh2bu5rcsb6lhkuwhjkbmppgvcmqsimcq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaaalgerehe7dwy7bs6geivk5uxldpxsqbonlwzbq6omwelgymjoi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiaaejf5w7zsnz23a3b3bdsbg75ebjsc5ek3okreqn7z7gf3kxygze": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaahy6bqqiecgzbf3z56gwlu5rt7krtzukv3jad6qneznus3rytgm": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiaazaqnquga5bsff3knpet7wyqedlsplgoxid4e4ku4torvdtfdku": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiabe4airbwxof4cdzmiiwzu62hrkzdfvl5rz2nzxtwcvpckr25odq": {
+                    "acc": false,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiabnnoszgrhrvavtdbgmid2zoflrznjzxca3ll63rzcqiaifzc5eu": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiabo4ayeinytwcjgnrk465ca3drh6tba5lpvdoj75ildgbmxoqsmm": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiabtu2k2ctdxmccxx4bgqmngqajqwb5ppv4btmthqhj455ly34zaq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiabwyqqmqyputchfb5zwrw5x7wzu2al7t52yvepfkj7f7tj5r2p2u": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiabzdrzthdzxwvnmbyxwo7gevn46rear2e7gahztukuxv4gbdkb7a": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiac2rzfedroyd2dfekpwxg4ixodt6pqq22yulrpv4m3iq4dejxib4": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiac57gxcmwxq3s324432xl3s4ud7brr6yolaukxtokcahqnyr4ja4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiac7m7jelt44bvtmeec6hvsthk22xlneu7gyvzfilvh6whqge2hve": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaccbibnkzoblx2gjum5ww2z5d2sbxdgjv2j5o5ikel7y5x2dfa4i": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiacd3qelhoizxqdgd466nug53nmj757wt2pn2rtiui5k5jpjxgbfi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiacmkk4rzaclkkjtqztzo6f47ev7wdtniuqtrpdgj4sdewpfg227i": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiacnngxhnf3erz2r3yqhv5ipfjnxsyf2llc652xy73lndftpk7zqy": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiacq63ml7htanhpwdjhx52lxc37egkzrplade3pgkn2mcfrn24p6i": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiact7t6lshf6go7z5woqiiatjb5b3jugms3xaktc76e755kqtruri": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiad27k53cnkxg2oebmayrpfh72qspqhwrd4knind5f6rtjexxnrqe": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiadb2omigfgn56ajahc5zrasmeysc5wxfaecx4pfz4w4xqiqezjsi": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiadcpar2xfqehnjogcqxjwthd2riq53y2k6e5ej3ffj3hsfmukyby": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiadmf4zauxymj3g5asfw4avudvongkt2qzwamgukek273vdmrvr5a": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiadpewnzsr7bgvyaadjfnq3noype2hvhrnzicso3vu6ojt6egpw7i": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiadvns23gwuvzsnoh4r7b2mawwurclcxg2zh3no4leftq6bbujuqy": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiae2bfr55pi7wqkmafw4mgvyjawbgwflcb2tuxqeg54zonrkoegkm": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaeaidujeriqczyrybs7vwpd6bkxw72uelh2ngtzukt6x3kqz7d4a": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaee3rrxg56prkwi2gwydxcuc7tq7tdgat7wfwxb23srgdxrggmxi": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaen7eyntsmbkbp64nharvc34yn4726mfujufarizkykpy5bv7j5i": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaew4lbqtk6fbqjin4eb74tpbnpsvvrphydvvlbnk43rx3b5jjz4m": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiaexptid2karisheih73vg6jnn6rvunwjzfxmj32ct6fjos5cm4ca": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaf3ngeao7svhghoyyt4ogfzzcv5qumfjnlahf37rm36ksvdfsgze": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiafdifkpuyfigt7bjyc45bbcrqeu47bgifsqtn4vubzkmeqvmlywq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiafhbzk6dxxjqb3p6mpiudqhswup4dcoedx3vvijsoq4dv4yleycm": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiafsb7gqvvzzx4rtgxesj6kjlmkpj4cxpvwgnruia2zznkd43jci4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiafu4pgdjv72jylmxajm47z2iulbnic5nhmyrd5qxyrftgeyvtdme": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiafzwfcryquhun7ocfcfq2ji4p5vk5wbkgemu2zsuc5ifzzazmqjq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaghupwfdslhttoynrrb5kqf3opmv34wqja2tbpilumyjeduhwcvm": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiah5dhavu32ryjbua4qqej74pw3lsvrxtx3lrhdplof7tzhpecaxa": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiahit5owj4gd5w66dsn63fkhf42yrvpmsfa3u3fxagnx57kwswlmq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaj243yfsuwqmnmpdkpdt64t4bxfqskl6tfeuflrooap5rygt5wk4": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiajfmtmycwymfhsczmvryvlk5qxvmvarf2nq3viudox5mnyabsw3i": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiajfvteyl74wcfr5cjtrkrgu6nlgdrjv4e436wfg56u4bvminly2y": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiajlltntdgezzplkayd5jt3z6f6ekgcuma2iwwh75ecbgovnw4vga": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiajluwzs6fote52en6fnyzztw7i3rhxrhrwmlapcb3miqcwampmla": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiakcsovubu5itiwsu2la3ofoxj2hofyzyzkoj3jc4konrx2so3rvm": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiakojp5cgye2ij4rbosh2z5skwf7x6tmam2y4opsuqwkmidcoo4g4": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiakq53xrkug752i37omp3bwag3fwz6lh5iotlnhn24j67boe6f2be": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiakrv6hy35wu3l3n5bmrtpae7iunccpg3jbtdvsngep6cf7e3mbua": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreial5qmrg3ijo52ysjbpyo55vh6oxrse3v544ajbe6bxgymhwkyd3e": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreialhld7ie23k6ojnvc3sguem5gz7ymesv5lg2orvi44g5dxfg2l7m": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreialj4hkvdlkwlp3bsnvf6qznras5lstc4lffy2kvysrbmyiaezkuu": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreialmte7yosvzcgwhqo763shzpuhhpbv326zymcgle2smq5pk7746y": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiam6kmh27z36nwtr4s7cdkh6ydzgt6sk5pc55ncdbjumpegxgw3c4": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiam72qirskcocb6qxosixaetcxecg6j423jm7xc5fikikye2ex3l4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiam7r5uzcoxnwoehcguk4hxo2ibykp4cwmzf3cmjesmksvyk4iog4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiamag3ndfjgyrkvs4mhcyuw4d3pwtftsw4qiplw6jxstjifnb6d4u": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiamancj5mh7ex5ds7yrefholtywq6r2z2vghbewi7t6z7ivutx2xy": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiamblg6bb2fk3dqx2aazrip27rdtynqshwwgcukzqmjo2bwuax65m": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiamrxjt6qu3bqwlzgufmkzl7xrm5ocybfkv4vfnsadcpxklgxorz4": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiamsvkn27nzegtuhvrnbuz5a5hvp6aqf327stpxdpp5elnpqo4eki": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreian4b3k2nd27z2hb7laokstmswfrdpgk7rp25cu2h3rgtw52srydi": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreianbjr43f4x2b3uegngs32h6aareewlv65jp7q7fraymidyybmtvq": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreianl36y54jkuuq6gt7ighpw4wih4vgctqythhxp4qtebz34ze2aci": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreianlljs2h3acvgxcgn5azdxxkpnqbjkhixniv2fjfexk3rsht32i4": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreianmwpodpzybjflrxhtv4fajmlapaiqf7qybnojgenr5ykmkigmpi": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreianogvkgsmyj7q4sp4rrjt3panszicidc7nlgnvee67fonghfkloq": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiansrcn4insnzomkr2vkqymf3b5d2shhvjiuzbo6yb6wrsdf7xkxy": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiantcxeuudkrq4lod7lps2dn2nhtoc7l4zbfpoyk4nxsyctbzdq7u": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiao26lyrvme2tj226wunuaawla2u74wxo3tejgzyh4yue5ctiphba": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiao6ywdqefp6d66chw4pctaawr26y54uxxbckesjqceuj33oimenm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaoa7fts5hdffwyu5u54pnysiezik7l5rlonyif6snx3yuw4i6qea": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaou5ciewy6b6r5u7c3es2qc5tnmqtwlceidvenofnevjtkrfj45m": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaou7qly47u3rklzg6fpboib6stzqcbbwzvu6lgw2trbvek3flwum": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaozfnd2obqt6hczrjlc2ov4huie5zkejeq2m5ohwqldtzj5fzf64": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiap2d7wxpw5shkkse7gn7c57zpfehapbhdh3v22kapj5wcuiiedee": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiap5gleo5oa3kfeirij6gfwkxilr3yoptm2jneqtektraaaklj25i": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiapa4xvntqgq22u75jb6f2ynpgfxdyc5szmcmopuwilhcbzp7nw5m": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiapcuxuzqqtfafl2uvwwqrdnjbtfyufzuutp2c6yuktf26qe3dv4q": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiapfzfshvgaaqra3evjaq57wv2o773zp7mlnxdkcpm5vcu2pzpofy": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiapkso756rynpx4vg6yws2wuc42safqpxhgqarfutqulvuztxjk24": {
+                    "acc": false,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaplo3asq5bnddk4iank4edoq5nfge24ptp3lewom73kmcniqzrpm": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiapnz46yux2jbnd5p5knotvksh663ftcoa4u75juei3rq5gsina5y": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaq4mvytyrx5l62xcv2ybb22llqsvu74r3uyibljxjihpajzdetg4": {
+                    "acc": true,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiaqckavm5ysqrql5hzbza7klyjeezmd6umhsjokhifsrmng545d2q": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaqdvsm2tqjfrltzwmohobh5rc6txgp2ghcf7oqswmdydu5nlkr2a": {
+                    "acc": true,
+                    "guess": "Left"
+                },
+                "/flip/bafkreiaqehx5vmcplwtyzfvez5ruz7zkemi3vco3xlcx6qh2ydmvm543wq": {
+                    "acc": false,
+                    "guess": "Right"
+                },
+                "/flip/bafkreiaqk2rbqjr5mrixgq3pi52rficloecfsejhsh6vywfvimkd4wshne": {
+                    "acc": false,
+                    "guess": "Left"
+                }
+            }
+        }
+    },
+    "stable_context": {
+        "positive_context": [
+            {
+                "name": "/flip/bafkreiabgcgzn35w7lshqeegxw3zcld7hpokzu3hbymnti2dwe7cpfh7ie",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man working on a laptop\" \nimage 2: \"two people talking to each other\" \nimage 3: \"a man and woman eating at a restaurant\" \nimage 4: \"a bride and groom putting their wedding rings on each other\" \n\nStory 2: \n\nimage 1: \"a man and woman eating at a restaurant\" \nimage 2: \"a bride and groom putting their wedding rings on each other\" \nimage 3: \"two people talking to each other\" \nimage 4: \"a man working on a laptop\""
+            },
+            {
+                "name": "/flip/bafkreia22m24urqtq46waknp5cekslzghbeox2aszclf3skbp743uospm4",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a little girl sitting on a window sill\" \nimage 2: \"a girl in a blue dress singing into a microphone\" \nimage 3: \"three people singing in front of a microphone\" \nimage 4: \"a woman holding an award\" \n\nStory 2: \n\nimage 1: \"a little girl sitting on a window sill\" \nimage 2: \"three people singing in front of a microphone\" \nimage 3: \"a woman holding an award\" \nimage 4: \"a girl in a blue dress singing into a microphone\""
+            },
+            {
+                "name": "/flip/bafkreiapg5hkft5oidsljjl6cljcf2dmoq4h7zxutfveu3rp6p7ec4a3eu",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a cat sitting on a window sill looking out at a city\" \nimage 2: \"a cat looking out the window\" \nimage 3: \"a field of green grass\" \nimage 4: \"a cat with sad eyes\" \n\nStory 2: \n\nimage 1: \"a field of green grass\" \nimage 2: \"a cat looking out the window\" \nimage 3: \"a cat with sad eyes\" \nimage 4: \"a cat sitting on a window sill looking out at a city\""
+            },
+            {
+                "name": "/flip/bafkreiala3asfwwgsppmpr7wtvn773mmzu52hl42vphd522xtnjsr4pgsy",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a piece of meat on a white background\" \nimage 2: \"a person cutting meat with a knife\" \nimage 3: \"a plate of steaks with herbs\" \nimage 4: \"ham on a white background\" \n\nStory 2: \n\nimage 1: \"ham on a white background\" \nimage 2: \"a person cutting meat with a knife\" \nimage 3: \"a plate of steaks with herbs\" \nimage 4: \"a piece of meat on a white background\""
+            },
+            {
+                "name": "/flip/bafkreiaonk7i23vxqicrrpvoztr2uaje25jed5puxp46woqhi3bpbichr4",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two men arguing with each other\" \nimage 2: \"a man and woman talking\" \nimage 3: \"a yellow vacuum cleaner with a black handle\" \nimage 4: \"a woman with a vacuum cleaner\" \n\nStory 2: \n\nimage 1: \"a woman with a vacuum cleaner\" \nimage 2: \"two men arguing with each other\" \nimage 3: \"a yellow vacuum cleaner with a black handle\" \nimage 4: \"a man and woman talking\""
+            },
+            {
+                "name": "/flip/bafkreial6c6ohduhs37expqxffx2la2jykamqeuf5a3sla73qfgvbxasba",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man in black holding a knife\" \nimage 2: \"a robber holding a gun and a bomb\" \nimage 3: \"a car that has been damaged in an accident\" \nimage 4: \"a building with fire and smoke\" \n\nStory 2: \n\nimage 1: \"a car that has been damaged in an accident\" \nimage 2: \"a building with fire and smoke\" \nimage 3: \"a man in black holding a knife\" \nimage 4: \"a robber holding a gun and a bomb\""
+            },
+            {
+                "name": "/flip/bafkreiaehkdsrrusvysfvfjwudgrm5f7vpig7mgjb7wvm3bjvnbzrps6da",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a deer head on a wooden wall\" \nimage 2: \"a black paint brush and a jar of paint\" \nimage 3: \"Antlers of a deer\" \nimage 4: \"a stag in the woods\" \n\nStory 2: \n\nimage 1: \"a stag in the woods\" \nimage 2: \"Antlers of a deer\" \nimage 3: \"a black paint brush and a jar of paint\" \nimage 4: \"a deer head on a wooden wall\""
+            },
+            {
+                "name": "/flip/bafkreia7y4f3mt4ox33eoyn5pi5r6jzfqfjf4dtblzytsopy43yshcbxsa",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a crowd of people in a theater\" \nimage 2: \"a thumbs up icon\" \nimage 3: \"a microphone on a white background\" \nimage 4: \"a man standing on stage with a microphone\" \n\nStory 2: \n\nimage 1: \"a microphone on a white background\" \nimage 2: \"a man standing on stage with a microphone\" \nimage 3: \"a crowd of people in a theater\" \nimage 4: \"a thumbs up icon\""
+            },
+            {
+                "name": "/flip/bafkreiaweirofxpicdc7o5awzyq7fooey6jspy2ossfewpbnn4t4uqolbq",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a blue diamond\" \nimage 2: \"a diamond with a blue color\" \nimage 3: \"a pair of earrings and a necklace with blue stones\" \nimage 4: \"a group of diamonds\" \n\nStory 2: \n\nimage 1: \"a pair of earrings and a necklace with blue stones\" \nimage 2: \"a blue diamond\" \nimage 3: \"a group of diamonds\" \nimage 4: \"a diamond with a blue color\""
+            },
+            {
+                "name": "/flip/bafkreiasrhonha523eisnrzavclhoawey643ofl46aurpm4lrowmcys47q",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman walking down a dirt road with a guitar\" \nimage 2: \"a woman walking down the train tracks\" \nimage 3: \"silhouette of a person standing on the beach\" \nimage 4: \"a black background with a quote in chinese\" \n\nStory 2: \n\nimage 1: \"silhouette of a person standing on the beach\" \nimage 2: \"a woman walking down the train tracks\" \nimage 3: \"a black background with a quote in chinese\" \nimage 4: \"a woman walking down a dirt road with a guitar\""
+            },
+            {
+                "name": "/flip/bafkreiaisrqtray3rgbcr7fss46w2lsdtgf2rjd3ecxhrmq3nlvhxkakyu",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a glass of milk and a pitcher\" \nimage 2: \"a cow in a field\" \nimage 3: \"a man is stirring a pot of milk\" \nimage 4: \"a man kneeling down to milk cows\" \n\nStory 2: \n\nimage 1: \"a cow in a field\" \nimage 2: \"a man kneeling down to milk cows\" \nimage 3: \"a man is stirring a pot of milk\" \nimage 4: \"a glass of milk and a pitcher\""
+            },
+            {
+                "name": "/flip/bafkreialx5r4yd4gap2fwrygbhqkjh7ktoqswhpgwjhznzlmfrdhr4jity",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a plant growing in the ground\" \nimage 2: \"a plant with leaves\" \nimage 3: \"a plant with leaves and a flower\" \nimage 4: \"a plant with leaves and a flower\" \n\nStory 2: \n\nimage 1: \"a plant with leaves\" \nimage 2: \"a plant with leaves and a flower\" \nimage 3: \"a plant growing in the ground\" \nimage 4: \"a plant with leaves and a flower\""
+            },
+            {
+                "name": "/flip/bafkreiae6z6vsdn7phfkbj7u6oshclal7hi6byvpcuwxny63f3numnnlwa",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"pregnant woman and man in a store\" \nimage 2: \"a black bow tie on a white background\" \nimage 3: \"a credit card machine and a credit card\" \nimage 4: \"a baby in a tuxedo sitting on a bed\" \n\nStory 2: \n\nimage 1: \"a baby in a tuxedo sitting on a bed\" \nimage 2: \"a credit card machine and a credit card\" \nimage 3: \"pregnant woman and man in a store\" \nimage 4: \"a black bow tie on a white background\""
+            },
+            {
+                "name": "/flip/bafkreiaoqch4kmcd4tjvrtrjzcxixatfpby2lq53stjclpc52lmhneftba",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman drinking water from a bottle\" \nimage 2: \"a drawing of a machine\" \nimage 3: \"a man in a hard hat standing in front of construction equipment\" \nimage 4: \"a water pump in a park\" \n\nStory 2: \n\nimage 1: \"a man in a hard hat standing in front of construction equipment\" \nimage 2: \"a drawing of a machine\" \nimage 3: \"a water pump in a park\" \nimage 4: \"a woman drinking water from a bottle\""
+            },
+            {
+                "name": "/flip/bafkreiaplknhrq54obnnmtknlctwlrf4dx4hawshapjyxnx6skviv7t4ki",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man in a mask is threatening a woman\" \nimage 2: \"A dog with its mouth open\" \nimage 3: \"a cartoon thief running away from a policeman\" \nimage 4: \"a woman hugging a rottweiler dog\" \n\nStory 2: \n\nimage 1: \"a cartoon thief running away from a policeman\" \nimage 2: \"a woman hugging a rottweiler dog\" \nimage 3: \"a man in a mask is threatening a woman\" \nimage 4: \"A dog with its mouth open\""
+            },
+            {
+                "name": "/flip/bafkreia7nwgcqdmuyiajowe42mcy6vlqln3qcekdyewm6hkzzyid2rkaea",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a field of wildflowers\" \nimage 2: \"a four leaf clover\" \nimage 3: \"euromillions lottery tickets with pen\" \nimage 4: \"a golden jackpot trophy with coins falling down\" \n\nStory 2: \n\nimage 1: \"a golden jackpot trophy with coins falling down\" \nimage 2: \"a field of wildflowers\" \nimage 3: \"euromillions lottery tickets with pen\" \nimage 4: \"a four leaf clover\""
+            },
+            {
+                "name": "/flip/bafkreib7kzh7gpci4afcwp4zwlbd6aiy55o42dpdamrbhfdmo6fk5ob3q4",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"coronaviruses on a red background\" \nimage 2: \"a man wrapped in a blanket with a mug of tea\" \nimage 3: \"a surgeon in blue scrubs holding a stethoscope\" \nimage 4: \"a man with a knife and fork cutting a cake\" \n\nStory 2: \n\nimage 1: \"a man with a knife and fork cutting a cake\" \nimage 2: \"coronaviruses on a red background\" \nimage 3: \"a surgeon in blue scrubs holding a stethoscope\" \nimage 4: \"a man wrapped in a blanket with a mug of tea\""
+            },
+            {
+                "name": "/flip/bafkreib7opzzokiommxcs57kasftqhl23bglohibhnpypqnfmcpkfhzq7q",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two green leaves on a branch\" \nimage 2: \"a small orange tree with white flowers\" \nimage 3: \"a lemon tree with green leaves and fruit\" \nimage 4: \"many oranges growing on trees\" \n\nStory 2: \n\nimage 1: \"a lemon tree with green leaves and fruit\" \nimage 2: \"a small orange tree with white flowers\" \nimage 3: \"many oranges growing on trees\" \nimage 4: \"two green leaves on a branch\""
+            },
+            {
+                "name": "/flip/bafkreiaglm36r45vyaor4scrr7triijqcxahx52pqf3xqahzxngabrisji",
+                "agreed_answer": [
+                    "Left",
+                    "Weak"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a bride in front of a large wooden door\" \nimage 2: \"a group of people posing with an award\" \nimage 3: \"a bride and groom in front of a limo\" \nimage 4: \"a bride throwing her bouquet\" \n\nStory 2: \n\nimage 1: \"a bride throwing her bouquet\" \nimage 2: \"a group of people posing with an award\" \nimage 3: \"a bride in front of a large wooden door\" \nimage 4: \"a bride and groom in front of a limo\""
+            },
+            {
+                "name": "/flip/bafkreia67qq657fo37guie65o6uexwznskusfv3famf6ytwelrcbes7gpe",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"people working in a factory\" \nimage 2: \"lays potato chips on a shelf in a supermarket\" \nimage 3: \"a lays truck\" \nimage 4: \"potatoes on a wooden table\" \n\nStory 2: \n\nimage 1: \"potatoes on a wooden table\" \nimage 2: \"people working in a factory\" \nimage 3: \"a lays truck\" \nimage 4: \"lays potato chips on a shelf in a supermarket\""
+            },
+            {
+                "name": "/flip/bafkreia6o2azccix4rc6cufokrnidxuxhnloehrp53eiili5coumebsa3a",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a church with steps leading up to it\" \nimage 2: \"a person holding a gold bowl with money in it\" \nimage 3: \"a priest holding money in his hand\" \nimage 4: \"businesswoman handing money to a man in the office\" \n\nStory 2: \n\nimage 1: \"a person holding a gold bowl with money in it\" \nimage 2: \"businesswoman handing money to a man in the office\" \nimage 3: \"a priest holding money in his hand\" \nimage 4: \"a church with steps leading up to it\""
+            },
+            {
+                "name": "/flip/bafkreiatyei5z3rd7sxutwl4x5am3rbvw3oyc5o3qtnyo6a5qeij55voja",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a logo for commuter\" \nimage 2: \"traffic on the freeway\" \nimage 3: \"a man driving a car\" \nimage 4: \"a green sign that says you are not stuck in traffic you are the traffic\" \n\nStory 2: \n\nimage 1: \"a man driving a car\" \nimage 2: \"a logo for commuter\" \nimage 3: \"a green sign that says you are not stuck in traffic you are the traffic\" \nimage 4: \"traffic on the freeway\""
+            },
+            {
+                "name": "/flip/bafkreiabvmi2ksvvokdurbtg7gkstsqytqbaztv6f27dvnn67kvsljsadm",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a band playing in a recording studio\" \nimage 2: \"a large orchestra performing in a church\" \nimage 3: \"business people sitting around a table\" \nimage 4: \"musical instruments\" \n\nStory 2: \n\nimage 1: \"business people sitting around a table\" \nimage 2: \"musical instruments\" \nimage 3: \"a band playing in a recording studio\" \nimage 4: \"a large orchestra performing in a church\""
+            },
+            {
+                "name": "/flip/bafkreiasnx3ytt2qlvqokdsfx4rnevmwmbn35amvoba3xouf5pbtq5uyva",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"an old man with a beard\" \nimage 2: \"a man in a suit\" \nimage 3: \"A bathroom with white walls and blue trim\" \nimage 4: \"a bar of soap with the words pre de provence\" \n\nStory 2: \n\nimage 1: \"an old man with a beard\" \nimage 2: \"a bar of soap with the words pre de provence\" \nimage 3: \"A bathroom with white walls and blue trim\" \nimage 4: \"a man in a suit\""
+            },
+            {
+                "name": "/flip/bafkreiadat2ivwmqpycfeto5jcm6dnbbj564jl7uk4wvwemzuiifnpfzca",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a police officer standing in front of a police car\" \nimage 2: \"a police officer using a computer\" \nimage 3: \"a police car and a tesla model s\" \nimage 4: \"people standing in front of a casket with umbrellas\" \n\nStory 2: \n\nimage 1: \"people standing in front of a casket with umbrellas\" \nimage 2: \"a police car and a tesla model s\" \nimage 3: \"a police officer standing in front of a police car\" \nimage 4: \"a police officer using a computer\""
+            },
+            {
+                "name": "/flip/bafkreiamv6t4dyvqrlbknzihrmtwykz2jtuadxxjw53adfjqwej7khmkwa",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"young man sitting on the couch in the living room\" \nimage 2: \"A suitcase with a lot of items in it\" \nimage 3: \"people waiting in line at an airport\" \nimage 4: \"a plane flying in the sky\" \n\nStory 2: \n\nimage 1: \"young man sitting on the couch in the living room\" \nimage 2: \"a plane flying in the sky\" \nimage 3: \"A suitcase with a lot of items in it\" \nimage 4: \"people waiting in line at an airport\""
+            },
+            {
+                "name": "/flip/bafkreia6h7ws75izncmvpvfglfinpfgd2qtfnj536sny4py2mdwevx7rxy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a greenhouse with lettuce plants\" \nimage 2: \"two people shaking hands over a contract\" \nimage 3: \"a person counting money\" \nimage 4: \"broccoli\" \n\nStory 2: \n\nimage 1: \"a greenhouse with lettuce plants\" \nimage 2: \"broccoli\" \nimage 3: \"two people shaking hands over a contract\" \nimage 4: \"a person counting money\""
+            },
+            {
+                "name": "/flip/bafkreialvwj3geweumeq43hpewsorqnqx4pyzifdyg5mynuevfapdigr3m",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a screenshot of doom in a video game\" \nimage 2: \"a computer mouse icon\" \nimage 3: \"a mouse with the word left click\" \nimage 4: \"a game screen with three zombies\" \n\nStory 2: \n\nimage 1: \"a computer mouse icon\" \nimage 2: \"a game screen with three zombies\" \nimage 3: \"a mouse with the word left click\" \nimage 4: \"a screenshot of doom in a video game\""
+            },
+            {
+                "name": "/flip/bafkreib7qzg6cd2npphjsecqoedyyq5zhsxkgalno6jitzeq6i2rj6qi2e",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"soccer players in action\" \nimage 2: \"two soccer players kicking a ball\" \nimage 3: \"a referee holding up a red card\" \nimage 4: \"a man sitting on the ground with his head on his hand\" \n\nStory 2: \n\nimage 1: \"soccer players in action\" \nimage 2: \"a man sitting on the ground with his head on his hand\" \nimage 3: \"a referee holding up a red card\" \nimage 4: \"two soccer players kicking a ball\""
+            },
+            {
+                "name": "/flip/bafkreiapmykvbw5sm5242eltichfl5oldp2y7qqgzpzgfjnbg6genvzzem",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a baby sitting on a blue background\" \nimage 2: \"a man in a white shirt and tie\" \nimage 3: \"an elderly man standing in front of a window\" \nimage 4: \"a gravestone in a cemetery\" \n\nStory 2: \n\nimage 1: \"a baby sitting on a blue background\" \nimage 2: \"a gravestone in a cemetery\" \nimage 3: \"a man in a white shirt and tie\" \nimage 4: \"an elderly man standing in front of a window\""
+            },
+            {
+                "name": "/flip/bafkreib3a2whu2jprbbo4clmjdufxqvqm3rpb42g7oid4cejqu7tvupwdy",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man and woman are repairing a car\" \nimage 2: \"an ambulance van\" \nimage 3: \"a pair of metal leg braces\" \nimage 4: \"a man in a wheelchair reading a book\" \n\nStory 2: \n\nimage 1: \"a pair of metal leg braces\" \nimage 2: \"a man and woman are repairing a car\" \nimage 3: \"a man in a wheelchair reading a book\" \nimage 4: \"an ambulance van\""
+            },
+            {
+                "name": "/flip/bafkreia5totvcm3mtqnmtl4czfv67lh2cjmb5u7nnytbqega6jyrdhvsgi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a theater with red seats and a large screen\" \nimage 2: \"a man with his arms up\" \nimage 3: \"people sitting in a waiting room\" \nimage 4: \"a woman and a man filming a movie\" \n\nStory 2: \n\nimage 1: \"people sitting in a waiting room\" \nimage 2: \"a man with his arms up\" \nimage 3: \"a woman and a man filming a movie\" \nimage 4: \"a theater with red seats and a large screen\""
+            },
+            {
+                "name": "/flip/bafkreiagbwkr2hnbkhnzp6mzai7hlz4loyzvhohwjnrivabvqfgorppi2q",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a grassy field with a fence and a rv\" \nimage 2: \"a hole in the ground\" \nimage 3: \"a pool with a white liner\" \nimage 4: \"a pool with a slide\" \n\nStory 2: \n\nimage 1: \"a pool with a white liner\" \nimage 2: \"a hole in the ground\" \nimage 3: \"a grassy field with a fence and a rv\" \nimage 4: \"a pool with a slide\""
+            },
+            {
+                "name": "/flip/bafkreialmzbjyfan2764duu5ya5lhn5zyjproyyvfbfcfc7nu37kpjjddi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman in handcuffs standing in front of a door\" \nimage 2: \"a thief in a black mask and gloves\" \nimage 3: \"a skull and crossbones with the words dream master\" \nimage 4: \"a large wooden bell on a concrete surface\" \n\nStory 2: \n\nimage 1: \"a thief in a black mask and gloves\" \nimage 2: \"a woman in handcuffs standing in front of a door\" \nimage 3: \"a large wooden bell on a concrete surface\" \nimage 4: \"a skull and crossbones with the words dream master\""
+            },
+            {
+                "name": "/flip/bafkreiaxc4275dewbndvp4r7oixf2vhm4mx5prlckvwkgm7ygcushu3mkq",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"people at a bar\" \nimage 2: \"a man is being thrown out of a club\" \nimage 3: \"a man in a police uniform\" \nimage 4: \"a courtroom scene with people in suits\" \n\nStory 2: \n\nimage 1: \"a man is being thrown out of a club\" \nimage 2: \"a man in a police uniform\" \nimage 3: \"a courtroom scene with people in suits\" \nimage 4: \"people at a bar\""
+            },
+            {
+                "name": "/flip/bafkreib6axhchejozxchustyokw7yga4o6ouk76kaqnw5vijry2djhojcm",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a large open pit mine\" \nimage 2: \"a construction site with a large excavator\" \nimage 3: \"a dump truck in a building\" \nimage 4: \"a large pile of clay pots\" \n\nStory 2: \n\nimage 1: \"a dump truck in a building\" \nimage 2: \"a large open pit mine\" \nimage 3: \"a large pile of clay pots\" \nimage 4: \"a construction site with a large excavator\""
+            },
+            {
+                "name": "/flip/bafkreiaupcpy5y37m6pn7pia5zxwugj5vbz4tjwlfzi7lx5xgkuawkk3vi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman sleeping in bed\" \nimage 2: \"a woman looking at herself in a mirror\" \nimage 3: \"a woman looking at clothes\" \nimage 4: \"a gold alarm clock on a white background\" \n\nStory 2: \n\nimage 1: \"a woman sleeping in bed\" \nimage 2: \"a gold alarm clock on a white background\" \nimage 3: \"a woman looking at clothes\" \nimage 4: \"a woman looking at herself in a mirror\""
+            },
+            {
+                "name": "/flip/bafkreias5m5sgggebucdznhn7v63vltmycuaxl5xozptuvzfz5eodhhwcq",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a baby wearing a blue romper\" \nimage 2: \"a girl is on a balance beam\" \nimage 3: \"a woman in red doing gymnastics on a balance beam\" \nimage 4: \"a woman holding a gold medal\" \n\nStory 2: \n\nimage 1: \"a woman holding a gold medal\" \nimage 2: \"a baby wearing a blue romper\" \nimage 3: \"a woman in red doing gymnastics on a balance beam\" \nimage 4: \"a girl is on a balance beam\""
+            },
+            {
+                "name": "/flip/bafkreiac34yisq7acyah55grftpnvv7f63eybwiudjqfanns5cabs57i3i",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a person pressing a button on a machine\" \nimage 2: \"a man in a suit looking at a nuclear plant\" \nimage 3: \"a person is cutting a piece of bloody meat\" \nimage 4: \"a person is putting blood on a piece of paper\" \n\nStory 2: \n\nimage 1: \"a person pressing a button on a machine\" \nimage 2: \"a person is cutting a piece of bloody meat\" \nimage 3: \"a person is putting blood on a piece of paper\" \nimage 4: \"a man in a suit looking at a nuclear plant\""
+            },
+            {
+                "name": "/flip/bafkreiahjgcrtu42g2pcptlubbmua4ko4mdtta5r4t773nkthunu7vwwoi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a train station at night\" \nimage 2: \"a train station in black and white\" \nimage 3: \"a digital clock with a red display\" \nimage 4: \"a train station with people and a train\" \n\nStory 2: \n\nimage 1: \"a train station in black and white\" \nimage 2: \"a digital clock with a red display\" \nimage 3: \"a train station at night\" \nimage 4: \"a train station with people and a train\""
+            },
+            {
+                "name": "/flip/bafkreiat2xt6ni4yka4xpimqa4c6to54mczglq6okhr3sz2u62ymo6wpe4",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a store with a sign that says sale\" \nimage 2: \"beauty and branded sale up to 70 % off\" \nimage 3: \"a crowd of people in a store\" \nimage 4: \"a woman with shopping bags\" \n\nStory 2: \n\nimage 1: \"a woman with shopping bags\" \nimage 2: \"beauty and branded sale up to 70 % off\" \nimage 3: \"a store with a sign that says sale\" \nimage 4: \"a crowd of people in a store\""
+            },
+            {
+                "name": "/flip/bafkreibacu2n2o42bbtg5id36oreu5ofogfzyvezlw5ye5t7muoasy7rhi",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a group of people at a party\" \nimage 2: \"pregnant woman in bed\" \nimage 3: \"a man and woman kissing\" \nimage 4: \"a man kissing his baby girl\" \n\nStory 2: \n\nimage 1: \"a man kissing his baby girl\" \nimage 2: \"a man and woman kissing\" \nimage 3: \"a group of people at a party\" \nimage 4: \"pregnant woman in bed\""
+            },
+            {
+                "name": "/flip/bafkreiasllaoaoev3kqffemx4njgtaeicexg5vbwzjkgwnchp2xvmh6kuy",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman walking through a tea plantation\" \nimage 2: \"a store with a lot of pink items\" \nimage 3: \"a small bag with a white tag\" \nimage 4: \"a cup of tea with a spoon\" \n\nStory 2: \n\nimage 1: \"a cup of tea with a spoon\" \nimage 2: \"a store with a lot of pink items\" \nimage 3: \"a woman walking through a tea plantation\" \nimage 4: \"a small bag with a white tag\""
+            },
+            {
+                "name": "/flip/bafkreib5ttthi5wyr6xqh33vukjheqed6scypawdwxuxqso3bcdczdiaqi",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a dark cave with a dark entrance\" \nimage 2: \"a flashlight with a finger on it\" \nimage 3: \"a person standing in a dark cave\" \nimage 4: \"a person standing in a cave\" \n\nStory 2: \n\nimage 1: \"a person standing in a cave\" \nimage 2: \"a flashlight with a finger on it\" \nimage 3: \"a dark cave with a dark entrance\" \nimage 4: \"a person standing in a dark cave\""
+            },
+            {
+                "name": "/flip/bafkreialeordslofsrdj2rttnpczjzcwciaviz4o32v6aedc63z5vmsnua",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man with question marks above his head\" \nimage 2: \"a diagram of a machine\" \nimage 3: \"a diagram of a steam engine\" \nimage 4: \"a black and white photo of a steam engine\" \n\nStory 2: \n\nimage 1: \"a black and white photo of a steam engine\" \nimage 2: \"a diagram of a machine\" \nimage 3: \"a man with question marks above his head\" \nimage 4: \"a diagram of a steam engine\""
+            },
+            {
+                "name": "/flip/bafkreiajq2k7ja5u2rmwa2duplbwiszylyamqfsyawdpk7jmpocjn2m77u",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a square with the word square on it\" \nimage 2: \"a cube icon\" \nimage 3: \"headphones with a white background\" \nimage 4: \"a woman dancing with headphones\" \n\nStory 2: \n\nimage 1: \"a woman dancing with headphones\" \nimage 2: \"a cube icon\" \nimage 3: \"a square with the word square on it\" \nimage 4: \"headphones with a white background\""
+            },
+            {
+                "name": "/flip/bafkreiaxqiagug4xrxfbqlqehrdjky7jufc5stt2kf77izo7e6soeexfme",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a blue letter a\" \nimage 2: \"a pink letter b with hearts\" \nimage 3: \"colorful letter c\" \nimage 4: \"the letter d in black and white\" \n\nStory 2: \n\nimage 1: \"the letter d in black and white\" \nimage 2: \"a blue letter a\" \nimage 3: \"a pink letter b with hearts\" \nimage 4: \"colorful letter c\""
+            },
+            {
+                "name": "/flip/bafkreia2xli2riqpkuhqfsnnpsslima3zubta6ffbltgp3sdfidmpqukgy",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman driving a car\" \nimage 2: \"a winco foods store\" \nimage 3: \"a woman buying mushrooms at a market\" \nimage 4: \"a person holding a phone and a scanner\" \n\nStory 2: \n\nimage 1: \"a person holding a phone and a scanner\" \nimage 2: \"a woman driving a car\" \nimage 3: \"a winco foods store\" \nimage 4: \"a woman buying mushrooms at a market\""
+            },
+            {
+                "name": "/flip/bafkreia474a476xqz2uqyddrn7vz7zdvcgijrpyaijr77so6ktipdtozdq",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman in a wedding dress\" \nimage 2: \"a man in a tuxedo\" \nimage 3: \"fountains in a park\" \nimage 4: \"a bride and groom standing in front of a fountain\" \n\nStory 2: \n\nimage 1: \"a woman in a wedding dress\" \nimage 2: \"a bride and groom standing in front of a fountain\" \nimage 3: \"a man in a tuxedo\" \nimage 4: \"fountains in a park\""
+            },
+            {
+                "name": "/flip/bafkreia6p53xvcgqmfafjyo5uyol54jmbief62exqinyeebhwcbv6l7cee",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a salt shaker on a white background\" \nimage 2: \"a glass of red wine on the floor\" \nimage 3: \"a woman putting salt on a wine glass\" \nimage 4: \"a salt shaker on a white background\" \n\nStory 2: \n\nimage 1: \"a woman putting salt on a wine glass\" \nimage 2: \"a salt shaker on a white background\" \nimage 3: \"a salt shaker on a white background\" \nimage 4: \"a glass of red wine on the floor\""
+            }
+        ],
+        "negative_context": [
+            {
+                "name": "/flip/bafkreial322jpejsgwqa6mgmyqcd7uihayz4losewibdfi5zdon3kahm4i",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a fat man standing on a white background\" \nimage 2: \"a cast iron skillet filled with beans and a wooden spoon\" \nimage 3: \"a cartoon man with a hat and a cigarette\" \nimage 4: \"a woman sneezing on a white background\" \n\nStory 2: \n\nimage 1: \"a woman sneezing on a white background\" \nimage 2: \"a fat man standing on a white background\" \nimage 3: \"a cartoon man with a hat and a cigarette\" \nimage 4: \"a cast iron skillet filled with beans and a wooden spoon\""
+            },
+            {
+                "name": "/flip/bafkreiazh4pd6n5jz2zecwe7sun7okk6asqd47twwaniyub4rteahtjeqy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two elephants walking in the grass\" \nimage 2: \"elephants walking in a green field\" \nimage 3: \"An elephant walking in a field\" \nimage 4: \"three elephants walking in a field\" \n\nStory 2: \n\nimage 1: \"An elephant walking in a field\" \nimage 2: \"two elephants walking in the grass\" \nimage 3: \"three elephants walking in a field\" \nimage 4: \"elephants walking in a green field\""
+            },
+            {
+                "name": "/flip/bafkreiacyipvfg47dove7w7yfsxyi7sih7w2jskk4qtfbly2zl6bdpdwom",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"birds flying in the sky\" \nimage 2: \"a man in a sweater\" \nimage 3: \"a pair of binoculars\" \nimage 4: \"a seagull flying in the sky\" \n\nStory 2: \n\nimage 1: \"a seagull flying in the sky\" \nimage 2: \"a group of birds flying in the sky\" \nimage 3: \"a pair of binoculars\" \nimage 4: \"a man in a sweater\""
+            },
+            {
+                "name": "/flip/bafkreib4kxxbjcn52amxziopvw3ytk6adivmg6gt4sd6ib4mdaahqfcti4",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a small frog on a leaf\" \nimage 2: \"a frog sitting on a table\" \nimage 3: \"a collection of frogs and flies\" \nimage 4: \"a dead animal in the mud\" \n\nStory 2: \n\nimage 1: \"a collection of frogs and flies\" \nimage 2: \"a small frog on a leaf\" \nimage 3: \"a frog sitting on a table\" \nimage 4: \"a dead animal in the mud\""
+            },
+            {
+                "name": "/flip/bafkreiaqz43xyotrinj7nhzikxjzgazcpmajgnzav4mmzj6mi5rwuykywy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a bar with many different beer taps\" \nimage 2: \"a broken light bulb\" \nimage 3: \"a light bulb on a black surface\" \nimage 4: \"a woman is paying for a credit card\" \n\nStory 2: \n\nimage 1: \"a broken light bulb\" \nimage 2: \"a bar with many different beer taps\" \nimage 3: \"a woman is paying for a credit card\" \nimage 4: \"a light bulb on a black surface\""
+            },
+            {
+                "name": "/flip/bafkreiabrhigjtxq5jqyv4wa3h2avlabw5tqw2ugfv3y6mhb45m3a6sl6u",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man in a hard hat\" \nimage 2: \"construction workers building a wall\" \nimage 3: \"a yellow sticky note with the word pay day\" \nimage 4: \"two construction workers sitting on a construction site\" \n\nStory 2: \n\nimage 1: \"a man in a hard hat\" \nimage 2: \"construction workers building a wall\" \nimage 3: \"two construction workers sitting on a construction site\" \nimage 4: \"a yellow sticky note with the word pay day\""
+            },
+            {
+                "name": "/flip/bafkreia2hkfzsxkoxrje5rraemas5bcegga6b624byxx63le7eu24ens7m",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman holding a bottle of champagne\" \nimage 2: \"a man in a bathtub\" \nimage 3: \"couple in a bathtub\" \nimage 4: \"a woman thinking about something\" \n\nStory 2: \n\nimage 1: \"a man in a bathtub\" \nimage 2: \"a woman thinking about something\" \nimage 3: \"a woman holding a bottle of champagne\" \nimage 4: \"couple in a bathtub\""
+            },
+            {
+                "name": "/flip/bafkreiaicfrkafw5lfwoj2bil3q5naedbarr6vwf2xuo4dyhjm6jtbhqgq",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a weather forecast for the day\" \nimage 2: \"a man in a suit pointing to a weather map\" \nimage 3: \"a large dish antenna\" \nimage 4: \"an artist's rendering of a satellite in space\" \n\nStory 2: \n\nimage 1: \"an artist's rendering of a satellite in space\" \nimage 2: \"a large dish antenna\" \nimage 3: \"a man in a suit pointing to a weather map\" \nimage 4: \"a weather forecast for the day\""
+            },
+            {
+                "name": "/flip/bafkreib5b7ucy7tyigndmwj5usxr2trrt7pe5q7jeida5y33q2h534o3hu",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a diagram of the sheep's reproductive cycle\" \nimage 2: \"two baby lambs standing in a field\" \nimage 3: \"a glass of water with a needle\" \nimage 4: \"a sheep in a glass case\" \n\nStory 2: \n\nimage 1: \"a sheep in a glass case\" \nimage 2: \"a glass of water with a needle\" \nimage 3: \"a diagram of the sheep's reproductive cycle\" \nimage 4: \"two baby lambs standing in a field\""
+            },
+            {
+                "name": "/flip/bafkreial5erva4fqmsnftpxiw4zemnbw5ehdj5bqiytchhxprzmkxgivs4",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a ship in the ocean\" \nimage 2: \"a container ship docked at a port\" \nimage 3: \"lightning over the ocean\" \nimage 4: \"a large container ship in the ocean\" \n\nStory 2: \n\nimage 1: \"a container ship docked at a port\" \nimage 2: \"a large container ship in the ocean\" \nimage 3: \"lightning over the ocean\" \nimage 4: \"a ship in the ocean\""
+            },
+            {
+                "name": "/flip/bafkreiagxky3vh4pefzgog2f77tpcxy663jii2qrcwluqnmatacumxlquy",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"the word summer written in the sand\" \nimage 2: \"a path in the woods with red leaves\" \nimage 3: \"a snowy forest with trees\" \nimage 4: \"windmills and tulips\" \n\nStory 2: \n\nimage 1: \"a snowy forest with trees\" \nimage 2: \"the word summer written in the sand\" \nimage 3: \"a path in the woods with red leaves\" \nimage 4: \"windmills and tulips\""
+            },
+            {
+                "name": "/flip/bafkreib4nr6fxkkx6h5w2ikrqrjmvqxj3rbie3rosc5szlr3yjz6sl4c6m",
+                "agreed_answer": [
+                    "Right",
+                    "Weak"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a mobile phone with a payment option\" \nimage 2: \"a man talking on a cell phone while driving\" \nimage 3: \"a person holding a phone with the uber logo on it\" \nimage 4: \"a person holding a phone with a discount code\" \n\nStory 2: \n\nimage 1: \"a person holding a phone with a discount code\" \nimage 2: \"a person holding a phone with the uber logo on it\" \nimage 3: \"a man talking on a cell phone while driving\" \nimage 4: \"a mobile phone with a payment option\""
+            },
+            {
+                "name": "/flip/bafkreiahnddszbvjheueu6salnlcuopar7dp4ozrlrl5yuy5kkrxujr57q",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a baby smiling\" \nimage 2: \"a boy in a red shirt\" \nimage 3: \"a person wearing a headset and sitting at a computer\" \nimage 4: \"a man in a suit and tie\" \n\nStory 2: \n\nimage 1: \"a person wearing a headset and sitting at a computer\" \nimage 2: \"a boy in a red shirt\" \nimage 3: \"a man in a suit and tie\" \nimage 4: \"a baby smiling\""
+            },
+            {
+                "name": "/flip/bafkreiajsa4ny2pagtv5z6w3i4djo5g6sfjlhth2zw3fto57xe4oomx74y",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a wooden turntable with a record player\" \nimage 2: \"a couple dancing\" \nimage 3: \"a record player with a record on it\" \nimage 4: \"a group of vinyl records on a table\" \n\nStory 2: \n\nimage 1: \"a group of vinyl records on a table\" \nimage 2: \"a wooden turntable with a record player\" \nimage 3: \"a record player with a record on it\" \nimage 4: \"a couple dancing\""
+            },
+            {
+                "name": "/flip/bafkreiabhqoy7btstgoyyyb2nxiowlfw4jpmmjqrlb76axmrm4irhebcja",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a set being built\" \nimage 2: \"a floor plan of a concert hall\" \nimage 3: \"a band performing on stage\" \nimage 4: \"a man sitting at a desk\" \n\nStory 2: \n\nimage 1: \"a man sitting at a desk\" \nimage 2: \"a floor plan of a concert hall\" \nimage 3: \"a set being built\" \nimage 4: \"a band performing on stage\""
+            },
+            {
+                "name": "/flip/bafkreiaxtgvnmpku3uyc7poyl2dddzs5n7wzocb6qybibo4deqou3a4cly",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman with a tan and a bare back\" \nimage 2: \"a billboard for raine center for face breast body plastic surgery\" \nimage 3: \"a woman getting her breasts pierced\" \nimage 4: \"a woman with a tan and a bald head\" \n\nStory 2: \n\nimage 1: \"a woman with a tan and a bald head\" \nimage 2: \"a billboard for raine center for face breast body plastic surgery\" \nimage 3: \"a woman getting her breasts pierced\" \nimage 4: \"a woman with a tan and a bare back\""
+            },
+            {
+                "name": "/flip/bafkreib6hs6gpazn5shll6vpixkxadpzw4z7v5ubk66leoqkoi36jns3ku",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a cartoon dog in a tuxedo\" \nimage 2: \"a nurse in white stockings fucking a man\" \nimage 3: \"a nurse assisting a patient in a hospital bed\" \nimage 4: \"a woman in a nurse costume\" \n\nStory 2: \n\nimage 1: \"a nurse assisting a patient in a hospital bed\" \nimage 2: \"a woman in a nurse costume\" \nimage 3: \"a cartoon dog in a tuxedo\" \nimage 4: \"a nurse in white stockings fucking a man\""
+            },
+            {
+                "name": "/flip/bafkreiaon55yb4o3xqzgqxtgwudb53k67slvhjptbm5zqwvlks7p7ht334",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"children sitting at desks and writing\" \nimage 2: \"owl in a graduation gown and a blackboard\" \nimage 3: \"boy waving his hand\" \nimage 4: \"two kids standing next to each other with the words clap clap\" \n\nStory 2: \n\nimage 1: \"two kids standing next to each other with the words clap clap\" \nimage 2: \"children sitting at desks and writing\" \nimage 3: \"owl in a graduation gown and a blackboard\" \nimage 4: \"boy waving his hand\""
+            },
+            {
+                "name": "/flip/bafkreiab2sez5r257oyezizniqb2emr6sdnyakffcxmm2dkoxfpooug72y",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a proton with a circle around it\" \nimage 2: \"a diagram of a neutron\" \nimage 3: \"a logo for electron\" \nimage 4: \"an atom with the word atom\" \n\nStory 2: \n\nimage 1: \"a proton with a circle around it\" \nimage 2: \"an atom with the word atom\" \nimage 3: \"a logo for electron\" \nimage 4: \"a diagram of a neutron\""
+            },
+            {
+                "name": "/flip/bafkreib2wfkvhn6uqiwldksytl2vwe2yfunoafnappybsemx7x52hjunyu",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a paper mill\" \nimage 2: \"blue boxes with labels on them\" \nimage 3: \"a man working in a factory\" \nimage 4: \"a newspaper being printed\" \n\nStory 2: \n\nimage 1: \"a paper mill\" \nimage 2: \"a newspaper being printed\" \nimage 3: \"a man working in a factory\" \nimage 4: \"blue boxes with labels on them\""
+            },
+            {
+                "name": "/flip/bafkreiaf3ayudigfi7pfnt625247tl3s7jsggg6hbkmo4xdnhdc2tpuuli",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman sleeping on a desk\" \nimage 2: \"a woman with her hand on her chin\" \nimage 3: \"a round dining table with wooden legs\" \nimage 4: \"a man rubbing his ear\" \n\nStory 2: \n\nimage 1: \"a man rubbing his ear\" \nimage 2: \"a round dining table with wooden legs\" \nimage 3: \"a woman with her hand on her chin\" \nimage 4: \"a woman sleeping on a desk\""
+            },
+            {
+                "name": "/flip/bafkreiazglck346cbuyf7qd67thmxgiitj43ikib236dzyeb6wbjp3fiqy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"people sitting in an airplane\" \nimage 2: \"a woman in a flight attendant uniform\" \nimage 3: \"a woman in a uniform standing in an airplane\" \nimage 4: \"a woman in a hotel room\" \n\nStory 2: \n\nimage 1: \"a woman in a uniform standing in an airplane\" \nimage 2: \"people sitting in an airplane\" \nimage 3: \"a woman in a flight attendant uniform\" \nimage 4: \"a woman in a hotel room\""
+            },
+            {
+                "name": "/flip/bafkreianuvtem5nababzw5z4iscr5ocvgaviilmemwn3o73jkak7bqrjde",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a briefcase filled with money\" \nimage 2: \"a black safe box with a keypad\" \nimage 3: \"a black safe box with the door open\" \nimage 4: \"a person's hand pressing the button on an oven\" \n\nStory 2: \n\nimage 1: \"a black safe box with a keypad\" \nimage 2: \"a person's hand pressing the button on an oven\" \nimage 3: \"a briefcase filled with money\" \nimage 4: \"a black safe box with the door open\""
+            },
+            {
+                "name": "/flip/bafkreia76gejkbcerjswn7bycal52zisebozstsn62nltzckp3wzd5vlwy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"people picking coffee beans in a forest\" \nimage 2: \"a person in a field\" \nimage 3: \"people doing yoga in the park\" \nimage 4: \"a green globe with the words go green\" \n\nStory 2: \n\nimage 1: \"a green globe with the words go green\" \nimage 2: \"a person in a field\" \nimage 3: \"people picking coffee beans in a forest\" \nimage 4: \"people doing yoga in the park\""
+            },
+            {
+                "name": "/flip/bafkreiartl3m5s64rv3dosyj47pfpbro446thwmr6jatpfwxyn5l4pbz4u",
+                "agreed_answer": [
+                    "Left",
+                    "Weak"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two cows in a field\" \nimage 2: \"a cow in a field\" \nimage 3: \"a man in a suit and tie\" \nimage 4: \"a boy with a funny face\" \n\nStory 2: \n\nimage 1: \"two cows in a field\" \nimage 2: \"a man in a suit and tie\" \nimage 3: \"a boy with a funny face\" \nimage 4: \"a cow in a field\""
+            },
+            {
+                "name": "/flip/bafkreiarlkgh533tn32ktxk6h6fp36wapcfhpfhqwordztryvtpakhz4h4",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman climbing up a building\" \nimage 2: \"a wooden door with a padlock\" \nimage 3: \"a woman running in a gym\" \nimage 4: \"people walking on a sidewalk in front of a building\" \n\nStory 2: \n\nimage 1: \"people walking on a sidewalk in front of a building\" \nimage 2: \"a woman running in a gym\" \nimage 3: \"a wooden door with a padlock\" \nimage 4: \"a woman climbing up a building\""
+            },
+            {
+                "name": "/flip/bafkreiabax33fykxlmmnvozwuut5s7i6ardg7kbvtr7h5omap5kad6xbcm",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"A boy writing in a classroom\" \nimage 2: \"a document with red arrows pointing to the text\" \nimage 3: \"group of children in business suits pointing at the camera\" \nimage 4: \"a boy crying\" \n\nStory 2: \n\nimage 1: \"group of children in business suits pointing at the camera\" \nimage 2: \"A boy writing in a classroom\" \nimage 3: \"a document with red arrows pointing to the text\" \nimage 4: \"a boy crying\""
+            },
+            {
+                "name": "/flip/bafkreiaalvbx7mwiv6jv5z2bcfychswclorzhc2bcvaqctqhymku4kc36q",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman standing in front of a conference table\" \nimage 2: \"a man tying his tie in front of a mirror\" \nimage 3: \"a person holding a blue and white business card\" \nimage 4: \"two businessmen having a meeting in an office\" \n\nStory 2: \n\nimage 1: \"a person holding a blue and white business card\" \nimage 2: \"a man tying his tie in front of a mirror\" \nimage 3: \"two businessmen having a meeting in an office\" \nimage 4: \"a woman standing in front of a conference table\""
+            },
+            {
+                "name": "/flip/bafkreiaok6ojwy34tdy3byeustl5qcdcfh7rec25mwfjx2o2vajw4r3hx4",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a painting of people picking cotton\" \nimage 2: \"an engraving of men in a hut\" \nimage 3: \"a painting of men in traditional clothing fighting\" \nimage 4: \"an old black and white drawing of men on horses\" \n\nStory 2: \n\nimage 1: \"a painting of men in traditional clothing fighting\" \nimage 2: \"an old black and white drawing of men on horses\" \nimage 3: \"an engraving of men in a hut\" \nimage 4: \"a painting of people picking cotton\""
+            },
+            {
+                "name": "/flip/bafkreias7dmvlbfbdckbzvrw3dch4lokko5rgrtnhdz7iaedmcqcybiozq",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a thermometer with a sun and a sun\" \nimage 2: \"a boy sitting at a desk in a classroom\" \nimage 3: \"silhouette of a couple thinking about a vacation\" \nimage 4: \"group of people jumping on the beach\" \n\nStory 2: \n\nimage 1: \"silhouette of a couple thinking about a vacation\" \nimage 2: \"group of people jumping on the beach\" \nimage 3: \"a boy sitting at a desk in a classroom\" \nimage 4: \"a thermometer with a sun and a sun\""
+            },
+            {
+                "name": "/flip/bafkreiaeeax6mv5ogt5vavnraubvw4giogwny47q7jrfszqmy3tavvdppy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man playing a guitar\" \nimage 2: \"a woman holding a sign that says,'how to write a thesis statement'\" \nimage 3: \"a guitar on a white background\" \nimage 4: \"A man and a girl are playing guitar\" \n\nStory 2: \n\nimage 1: \"a woman holding a sign that says,'how to write a thesis statement'\" \nimage 2: \"a guitar on a white background\" \nimage 3: \"A man and a girl are playing guitar\" \nimage 4: \"a man playing a guitar\""
+            },
+            {
+                "name": "/flip/bafkreiamykcmlakh7celnhwk3y54mxb3u4h4lhsgkgikocccut6fp34suq",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"A bed with drawers underneath\" \nimage 2: \"a window with a view of a mountain\" \nimage 3: \"a woman standing in front of a chalkboard with light bulbs drawn on it\" \nimage 4: \"a bed with a green and white comforter\" \n\nStory 2: \n\nimage 1: \"a bed with a green and white comforter\" \nimage 2: \"a woman standing in front of a chalkboard with light bulbs drawn on it\" \nimage 3: \"A bed with drawers underneath\" \nimage 4: \"a window with a view of a mountain\""
+            },
+            {
+                "name": "/flip/bafkreiay73apxn5e5uszxwtxekbdzggrl2q7vzoj7nph77eqerth5gv2ua",
+                "agreed_answer": [
+                    "Right",
+                    "Weak"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a cartoon pig in the shower\" \nimage 2: \"a water tap with a green hose\" \nimage 3: \"a sign that says no water\" \nimage 4: \"a cartoon boy rushing to the water fountain\" \n\nStory 2: \n\nimage 1: \"a cartoon boy rushing to the water fountain\" \nimage 2: \"a water tap with a green hose\" \nimage 3: \"a sign that says no water\" \nimage 4: \"a cartoon pig in the shower\""
+            },
+            {
+                "name": "/flip/bafkreiaqxsjkhjgpeob7vpszffkcd6bwuhhyyqsuvopfpirca3b7f22zsm",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a bronze bust of a man\" \nimage 2: \"a pile of brass rods\" \nimage 3: \"a pot on a stove\" \nimage 4: \"a copper shaped object\" \n\nStory 2: \n\nimage 1: \"a copper shaped object\" \nimage 2: \"a pot on a stove\" \nimage 3: \"a pile of brass rods\" \nimage 4: \"a bronze bust of a man\""
+            },
+            {
+                "name": "/flip/bafkreib7ibtmg2qexj4xu6glnn6mgvvpg4fde2frnrsye4gntkhk5wbn44",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"A person in a paintball suit\" \nimage 2: \"a group of people posing for a photo\" \nimage 3: \"A man in paintball gear is holding a gun\" \nimage 4: \"a group of people in paintball gear\" \n\nStory 2: \n\nimage 1: \"a group of people in paintball gear\" \nimage 2: \"A man in paintball gear is holding a gun\" \nimage 3: \"A person in a paintball suit\" \nimage 4: \"a group of people posing for a photo\""
+            },
+            {
+                "name": "/flip/bafkreiafuo36i6bale6shxzy66vfan3t5te4z3eeoypyvbdgzkc6thtp5e",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"an antique globe on a stand\" \nimage 2: \"a globe with a ring around it\" \nimage 3: \"a man standing on a cliff with a tree in front of him\" \nimage 4: \"a man standing on a hill with the word round\" \n\nStory 2: \n\nimage 1: \"a globe with a ring around it\" \nimage 2: \"a man standing on a cliff with a tree in front of him\" \nimage 3: \"an antique globe on a stand\" \nimage 4: \"a man standing on a hill with the word round\""
+            },
+            {
+                "name": "/flip/bafkreia34kr56rdkajshczzcd5yug3bvs5ywbydzhk26zmh4wj6f3yzcqi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a bathroom with a beach floor\" \nimage 2: \"woman using a shower thermometer\" \nimage 3: \"a woman with a surprised expression\" \nimage 4: \"woman brushing her teeth in the bathroom\" \n\nStory 2: \n\nimage 1: \"woman brushing her teeth in the bathroom\" \nimage 2: \"woman using a shower thermometer\" \nimage 3: \"a bathroom with a beach floor\" \nimage 4: \"a woman with a surprised expression\""
+            },
+            {
+                "name": "/flip/bafkreiafvpmrqkglk2sfnfgipd2utw7yrmekvz3ujaxlr56enx6mfctwga",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a person putting a pink envelope into a yellow mailbox\" \nimage 2: \"a person riding a yellow bicycle\" \nimage 3: \"a man putting mail into a yellow mailbox\" \nimage 4: \"a warehouse with people working\" \n\nStory 2: \n\nimage 1: \"a person putting a pink envelope into a yellow mailbox\" \nimage 2: \"a man putting mail into a yellow mailbox\" \nimage 3: \"a warehouse with people working\" \nimage 4: \"a person riding a yellow bicycle\""
+            },
+            {
+                "name": "/flip/bafkreib3xh6geisbtoi4uw3ztzvmtvlpyflq4mduzvdareq7325x3ugsaq",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman with a cough\" \nimage 2: \"a group of women in burqas\" \nimage 3: \"a group of people wearing kkk hoods\" \nimage 4: \"a group of men in black robes and masks\" \n\nStory 2: \n\nimage 1: \"a group of women in burqas\" \nimage 2: \"a group of men in black robes and masks\" \nimage 3: \"a woman with a cough\" \nimage 4: \"a group of people wearing kkk hoods\""
+            },
+            {
+                "name": "/flip/bafkreiauiss63g7pqulyud6w4zcgrfqvkymc23ylylmgqx2ikfj5wxmdfm",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a young boy in a blue shirt and jeans\" \nimage 2: \"a teacher in a classroom with students\" \nimage 3: \"a man in graduation robes\" \nimage 4: \"a surgeon holding a scalpel stock photo\" \n\nStory 2: \n\nimage 1: \"a young boy in a blue shirt and jeans\" \nimage 2: \"a man in graduation robes\" \nimage 3: \"a surgeon holding a scalpel stock photo\" \nimage 4: \"a teacher in a classroom with students\""
+            },
+            {
+                "name": "/flip/bafkreiat36qb42mgryggedslwtzvlbl5ctymhdvfw3chflddk436eopkvi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a woman in a shower\" \nimage 2: \"woman in bathrobe standing in the shower\" \nimage 3: \"woman in white towel standing in shower\" \nimage 4: \"woman in white towel standing in front of shower\" \n\nStory 2: \n\nimage 1: \"woman in white towel standing in front of shower\" \nimage 2: \"woman in white towel standing in shower\" \nimage 3: \"a woman in a shower\" \nimage 4: \"woman in bathrobe standing in the shower\""
+            },
+            {
+                "name": "/flip/bafkreiabpogwatw7vweevnto4us7v257qbj2cyyxq6tssgrvvfb7xxtdre",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man and woman sitting on a couch\" \nimage 2: \"a woman is swatting a gramophone\" \nimage 3: \"a man sitting at a desk with a laptop\" \nimage 4: \"a woman sitting on a couch with a dog\" \n\nStory 2: \n\nimage 1: \"a man sitting at a desk with a laptop\" \nimage 2: \"a woman sitting on a couch with a dog\" \nimage 3: \"a woman is swatting a gramophone\" \nimage 4: \"a man and woman sitting on a couch\""
+            },
+            {
+                "name": "/flip/bafkreiauab7zwsw2yb4ehzb4goge7r5wk5mbkxcrxyx7hrcfzy5enum4qy",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"businessman talking on the phone\" \nimage 2: \"a boy looking at a pile of papers\" \nimage 3: \"a man and woman holding a check\" \nimage 4: \"a person holding a lottery ticket\" \n\nStory 2: \n\nimage 1: \"a boy looking at a pile of papers\" \nimage 2: \"a person holding a lottery ticket\" \nimage 3: \"businessman talking on the phone\" \nimage 4: \"a man and woman holding a check\""
+            },
+            {
+                "name": "/flip/bafkreiacvvdrlxpmgic7gkc2dv4rqnfpuvnvdegx6bdlnb7tm2wk2gbczq",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a greenhouse with rows of strawberries\" \nimage 2: \"a person planting strawberries in pots\" \nimage 3: \"a window box with strawberries growing in it\" \nimage 4: \"a man picking strawberries in a field\" \n\nStory 2: \n\nimage 1: \"a person planting strawberries in pots\" \nimage 2: \"a window box with strawberries growing in it\" \nimage 3: \"a greenhouse with rows of strawberries\" \nimage 4: \"a man picking strawberries in a field\""
+            },
+            {
+                "name": "/flip/bafkreiamjs7vdecnhgbz35esubrem2c47emeswfb3aqulw3ch5jvco4byy",
+                "agreed_answer": [
+                    "Left",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a female character in armor with swords\" \nimage 2: \"a screenshot of a group of people in a game\" \nimage 3: \"a blue screen with the message'windows has stopped working'\" \nimage 4: \"a screenshot of a game\" \n\nStory 2: \n\nimage 1: \"a blue screen with the message'windows has stopped working'\" \nimage 2: \"a screenshot of a game\" \nimage 3: \"a screenshot of a group of people in a game\" \nimage 4: \"a female character in armor with swords\""
+            },
+            {
+                "name": "/flip/bafkreiakiaa7bn7iwyaqmftxbspwozytg65u4fbbe7eizqrv2lexrk6zpa",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a man in a hoodie with a knife\" \nimage 2: \"casket on a cart\" \nimage 3: \"a cartoon king holding a staff\" \nimage 4: \"a large room with a red carpet and people in uniform\" \n\nStory 2: \n\nimage 1: \"a large room with a red carpet and people in uniform\" \nimage 2: \"a man in a hoodie with a knife\" \nimage 3: \"a cartoon king holding a staff\" \nimage 4: \"casket on a cart\""
+            },
+            {
+                "name": "/flip/bafkreiarsvc7s2aauipfmg77drigd4kpgpcyh2ubycyqwh2eehzms7apfi",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"an ambulance driving down the road\" \nimage 2: \"a person holding a hand with blood on it\" \nimage 3: \"a nurse putting a bandage on a patient's arm\" \nimage 4: \"a yellow ambulance driving down a road\" \n\nStory 2: \n\nimage 1: \"a person holding a hand with blood on it\" \nimage 2: \"an ambulance driving down the road\" \nimage 3: \"a yellow ambulance driving down a road\" \nimage 4: \"a nurse putting a bandage on a patient's arm\""
+            },
+            {
+                "name": "/flip/bafkreiateu3eo2hlwwm2gccd6eb5gjhvccoxy6ebiplcp3467iozanfadu",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a stock market chart with a blue background\" \nimage 2: \"a group of business people\" \nimage 3: \"people in a room with computers\" \nimage 4: \"a graph showing the growth of the us economy\" \n\nStory 2: \n\nimage 1: \"people in a room with computers\" \nimage 2: \"a stock market chart with a blue background\" \nimage 3: \"a group of business people\" \nimage 4: \"a graph showing the growth of the us economy\""
+            },
+            {
+                "name": "/flip/bafkreib75fiukku73p7kutnghtbpvwj3v47uzw4gablrik573dtylw3klq",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"two simpsons characters standing in front of a fence\" \nimage 2: \"the simpsons characters\" \nimage 3: \"a hammock in front of a tree\" \nimage 4: \"the simpsons family\" \n\nStory 2: \n\nimage 1: \"a hammock in front of a tree\" \nimage 2: \"two simpsons characters standing in front of a fence\" \nimage 3: \"the simpsons family\" \nimage 4: \"the simpsons characters\""
+            },
+            {
+                "name": "/flip/bafkreia2qitvprv3nemobh4ad5nyw6wdzkw6bybtkoabnsitcwkdzjyacu",
+                "agreed_answer": [
+                    "Right",
+                    "Strong"
+                ],
+                "task_captions": "Story 1: \n\nimage 1: \"a businessman holding a light bulb\" \nimage 2: \"a scientist holding a beaker of liquid\" \nimage 3: \"a man holding up a magazine\" \nimage 4: \"two people in lab coats looking at something\" \n\nStory 2: \n\nimage 1: \"two people in lab coats looking at something\" \nimage 2: \"a businessman holding a light bulb\" \nimage 3: \"a scientist holding a beaker of liquid\" \nimage 4: \"a man holding up a magazine\""
+            }
+        ]
+    }
+}

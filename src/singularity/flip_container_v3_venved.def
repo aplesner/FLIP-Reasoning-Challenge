@@ -1,0 +1,61 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.4.1-cuda12.1-cudnn9-devel
+
+%post
+    apt-get update
+    apt-get install python3-venv -y
+    apt-get install git -y
+
+    #venv
+    python3 -m venv /scratch/$USER/apptainer_env/venv
+    cd /scratch/$USER/apptainer_env/venv
+
+    # Additional setup if needed
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade pip
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        scipy \
+        torch \
+        accelerate \
+        bitsandbytes \
+        transformers \
+        accelerate \
+        deepspeed \
+        torchvision \
+        torchaudio
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        einops \
+        sentencepiece         
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        flash_attn 
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        ollama 
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        auto-gptq 
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        optimum 
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        qwen-vl-utils 
+    /scratch/$USER/apptainer_env/venv/bin/pip install --no-cache-dir --upgrade \
+        "huggingface_hub[cli]" 
+
+%environment
+    #export LC_ALL="en_US.UTF-8"
+    #export LC_CTYPE="en_US.UTF-8"
+    #sudo dpkg-reconfigure locales
+    export LC_ALL=C
+    export USER=kturlan
+    export TMPDIR=/scratch/$USER/apptainer_env/venv/.local
+    export PYTHONUSERBASE=/scratch/$USER/apptainer_env/.local
+    export PYTHONNOUSERSITE=1
+    export PIP_CACHE_DIR=/scratch/$USER/apptainer_env/pip_cache
+    export PYTHONPATH=$PYTHONPATH:/scratch/$USER/apptainer_env/site_packages
+    export JUPYTER_DATA_DIR=/scratch/$USER/apptainer_env/jupyter_data
+    export HF_HOME=/scratch/$USER/apptainer_env/hf_cache
+    export TRANSFORMERS_CACHE=/scratch/$USER/apptainer_env/hf_cache
+    export HUGGINGFACE_HUB_CACHE=/scratch/$USER/apptainer_env/hf_cache
+    export TORCH_HOME=/scratch/$USER/apptainer_env/torch_cache
+
+%runscript
+    /scratch/$USER/apptainer_env/venv/bin/python
+    #python --version
+    #echo "To run your script, use: apptainer exec pytorch_cuda.sif python /path/to/your/script.py"

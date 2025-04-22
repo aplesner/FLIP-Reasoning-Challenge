@@ -1,0 +1,340 @@
+{
+    "ViPLlava_7B":{
+        "model_id":"llava-hf/vip-llava-7b-hf",
+
+        "prompt" : "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful answers to the human's questions.###Human: <image>\n{}###Assistant:",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "Can you please describe this image?",
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "ViPLlava_13B":{
+        "model_id":"llava-hf/vip-llava-13b-hf",
+
+        "prompt" : "A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful answers to the human's questions.###Human: <image>\n{}###Assistant:",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "Can you please describe this image?",
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+    
+    "LlavaNeXT_mistral_7B":{
+        "model_id":"llava-hf/llava-v1.6-mistral-7b-hf",
+        "prompt" : "{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "LlavaNeXT_vicuna_7B":{
+        "model_id":"llava-hf/llava-v1.6-vicuna-7b-hf",
+        "prompt" : "{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "LlavaNeXT_vicuna_13B":{
+        "model_id":"llava-hf/llava-v1.6-vicuna-13b-hf",
+        "prompt" : "{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "BLIP2_flan_t5_xxl":{
+        "model_id":
+        "Salesforce/blip2-flan-t5-xxl",
+        "prompt":"Questions: {} Answer:",
+        "gen_kw":{
+            "max_new_tokens":200,
+            "temperature": 0.8,
+            "top_k": 50,
+            "top_p": 0.9,
+            "repetition_penalty": 1.2,
+            "max_length": 150
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "load_in_8bit":true
+        },
+        "question" : [
+            "What do you see in this image? Please describe it",
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "BLIP2_6_7B_COCO":{
+        "model_id":
+        "Salesforce/blip2-opt-6.7b-coco",
+        "prompt":"Questions: {} Answer:",
+        "gen_kw":{
+            "max_new_tokens":200,
+            "temperature": 0.8,
+            "top_k": 50,
+            "top_p": 0.9,
+            "repetition_penalty": 1.2,
+            "max_length": 150
+        },
+        "model_load_params":{
+            "device_map":"auto"
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "BLIP2_2_7B":{
+        "model_id":
+        "Salesforce/blip2-opt-2.7b",
+        "prompt":"Questions: {} Answer:",
+        "gen_kw":{
+            "max_new_tokens":200,
+            "temperature": 0.8,
+            "top_k": 50,
+            "top_p": 0.9,
+            "repetition_penalty": 1.2,
+            "max_length": 150
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "What do you see in this image? Please describe it",
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+    
+    "Llama_3_2_11B":{
+        "model_id":"meta-llama/Llama-3.2-11B-Vision-Instruct",
+        "prompt":"{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "Llama_3_2_90B_bit":{
+        "model_id":"meta-llama/Llama-3.2-90B-Vision-Instruct",
+        "prompt":"{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "BitsAndBytesConfig":{
+                "load_in_8bit":true
+            }
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+
+    "Phi_3_5":{
+        "model_id":"microsoft/Phi-3.5-vision-instruct" ,
+        "prompt":"{}",
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "_attn_implementation":"eager",
+            "trust_remote_code":true, 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "question" : [
+            "What is the primary subject of the image?",
+            "What is the relationship between subjects if there are multiple people or objects?",
+            "What is the potential story or narrative implied by the scene?",
+            "Are there symbols, motifs, or repeated patterns that add meaning to the image?",
+            "What actions are the subjects performing, and how does that convey their purpose?"
+        ]
+    },
+    "nvm_Llama3_51B":{
+        "model_id": "nvidia/Llama-3_1-Nemotron-51B-Instruct",
+        "prompt":"You are a helpful chatbot that has been trained to recognize correct event sequences and provide short answers",
+        "question":[
+            " You are given QA pairs about an image, and they appear to contain too much text to be used as captions for the image. ",
+            " Your task is to summarize these QA pairs in at most one sentence, retaining details that allow to recognize the exact image this caption belongs to among many similar ones. "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto",
+            "torch_dtype":"torch.bfloat16",
+            "trust_remote_code":true
+        },
+        "prompt_instructions":"Please provide the new image caption after 'Summary:'",
+        "context_n":0
+    },
+
+    "nvm_Llama3_70B":{
+        "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+        "prompt":"You are a helpful chatbot that has been trained to recognize correct event sequences and provide short answers",
+        "question":[
+            " You are given QA pairs about an image, and they appear to contain too much text to be used as captions for the image. ",
+            " Your task is to summarize these QA pairs in at most one sentence, retaining details that allow to recognize the exact image this caption belongs to among many similar ones. "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "prompt_instructions":"Please provide the new image caption after 'Summary:'",
+        "context_n":0
+    },
+
+    "meta_Llama_3_1_70B":{
+        "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "prompt":"You are a helpful chatbot that has been trained to recognize correct event sequences and provide short answers",
+        "question":[
+            " You are given QA pairs about an image, and they appear to contain too much text to be used as captions for the image. ",
+            " Your task is to summarize these QA pairs in at most one sentence, retaining details that allow to recognize the exact image this caption belongs to among many similar ones. "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"torch.bfloat16"
+        },
+        "prompt_instructions":"Please provide the new image caption after 'Summary:'",
+        "context_n":0
+    },
+
+    "Qwen_2_5_8bit":{
+        "model_id": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
+        "prompt":"You are Qwen, a helpful assistant.",
+        "question":[
+            " You are given QA pairs about an image, and they appear to contain too much text to be used as captions for the image. ",
+            " Your task is to summarize these QA pairs in at most one sentence, retaining details that allow to recognize the exact image this caption belongs to among many similar ones. "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "torch_dtype":"auto",
+            "device_map":"auto"
+        },
+        "prompt_instructions":"Please provide the new image caption after 'Summary:'",
+        "context_n":0
+    },
+
+    "Qwen_2_VL_8bit":{
+        "model_id": "Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int8",
+        "prompt":"",
+        "question":[
+            " You are given QA pairs about an image, and they appear to contain too much text to be used as captions for the image. ",
+            " Your task is to summarize these QA pairs in at most one sentence, retaining details that allow to recognize the exact image this caption belongs to among many similar ones. "
+        ],
+        "gen_kw":{
+            "temperature":0.2,
+            "max_new_tokens":200
+        },
+        "model_load_params":{
+            "device_map":"auto", 
+            "torch_dtype":"auto"
+        },
+        "prompt_instructions":"Please provide the new image caption after 'Summary:'",
+        "context_n":0
+    }
+}
