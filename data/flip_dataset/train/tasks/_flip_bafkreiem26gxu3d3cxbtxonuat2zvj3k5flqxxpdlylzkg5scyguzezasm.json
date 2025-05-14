@@ -1,0 +1,32 @@
+{
+    "name": "/flip/bafkreiem26gxu3d3cxbtxonuat2zvj3k5flqxxpdlylzkg5scyguzezasm",
+    "image_lst1": {
+        "0": "blob:https://scan.idena.io/f70957f2-6f63-418a-a6ad-fa17f1a17903",
+        "1": "blob:https://scan.idena.io/b649d1cf-9cee-44dd-a227-bf71caac466d",
+        "2": "blob:https://scan.idena.io/b0206b74-36a2-4b3b-af31-815861bde7e5",
+        "3": "blob:https://scan.idena.io/af3c37b1-2a11-46e5-9fd1-1f5998cbd33b"
+    },
+    "image_lst2": {
+        "0": "blob:https://scan.idena.io/b649d1cf-9cee-44dd-a227-bf71caac466d",
+        "1": "blob:https://scan.idena.io/af3c37b1-2a11-46e5-9fd1-1f5998cbd33b",
+        "2": "blob:https://scan.idena.io/f70957f2-6f63-418a-a6ad-fa17f1a17903",
+        "3": "blob:https://scan.idena.io/b0206b74-36a2-4b3b-af31-815861bde7e5"
+    },
+    "agreed_answer": [
+        "Left",
+        "Weak"
+    ],
+    "votes": {
+        "Left": "6",
+        "Right": "3",
+        "Reported": "0"
+    },
+    "details": {
+        "Author:": "0xA383fD428F0B5cd6054055c5732351E89809F1E6",
+        "Epoch:": "#0035",
+        "Size:": "113559 bytes",
+        "Created:": "2/13/2020 07:42:36",
+        "Block:": "885019",
+        "Tx:": "0x86f82cfbc947c7fbca82ce289fd16315e3c209902643cb88bea0d0ef2dc42668"
+    }
+}
