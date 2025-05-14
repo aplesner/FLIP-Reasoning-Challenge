@@ -1,8 +1,8 @@
 # Code for the paper FLIP Reasoning Challenge 
-Link to the paper: `https://arxiv.org/abs/2504.12256`
+Link to the paper: `https://arxiv.org/abs/2504.12256`.
 
 # Data
-The data will be made available on huggingface.
+The data is available on huggingface at `https://huggingface.co/datasets/aplesner-eth/FLIP-Challenge`.
 
 
 # Running the code
